@@ -1,5 +1,5 @@
 export const pwaCollection = {
-	name: "소프트웨어학과 공학교육인증",
+	name: "Engineering Certification",
 	areas: [
 		{
 			name: "BSM",
@@ -263,7 +263,7 @@ export const pwaCollection = {
 					]
 				},
 				{
-					name: "기초프로젝트(2)",
+					name: "오픈소스기초프로젝트(2)",
 					description: {
 						text: "C, C++언어를 이용하여 실생활에 적용 가능한 소프트웨어를 개발하고, 이러한 개발과정에서 프로그램의 역할과 프로그램 코드의 체계적인 개발에 대한 중요성을 이해한다.",
 						links: [
@@ -313,7 +313,7 @@ export const pwaCollection = {
 					},
 				},
 				{
-					name: "소프트웨어도구실험",
+					name: "오픈소스소프트웨어이해와실습",
 					description: {
 						text: "T분야에서 활발하게 사용되고 있는 오픈소스소프트웨어의 종류, 올바른 활용방법, 개발환경의 구성, 다양한 응용 등에 대해 학습하여 오픈소스소프트웨어에 대한 이해를 높이고 기본적인 활용방법을 배운다.",
 						links: [
@@ -367,7 +367,7 @@ export const pwaCollection = {
 				},
 				
 				{
-					name: "웹기반소프트웨어개발(1)",
+					name: "오픈소스 웹소프트웨어(1)",
 					description: {
 						text: "오픈 소스 툴을 사용하여 웹을 개발하는 기술을 학습한다.",
 						links: [
@@ -469,7 +469,7 @@ export const pwaCollection = {
 				},
 			
 				{
-					name: "산학초청세미나Ⅰ",
+					name: "창업산학세미나Ⅰ",
 					description: {
 						text: "산업체와 학교의 교류를 통한 기업가정신, 최신 IT기술 동향 및 산업체의 경영철학과 경영방법을 습득한다.",
 						links: [
@@ -477,7 +477,7 @@ export const pwaCollection = {
 					},
 					skills: [
 						{
-							name: "산학초청세미나Ⅱ",
+							name: "창업산학세미나Ⅱ",
 							description: {
 								text: "산업체와 학교의 교류를 통한 최신 IT기술 동향 및 산업체의 경영철학과 경영방법을 습득한다.",
 								links: [
