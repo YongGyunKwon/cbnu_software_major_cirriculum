@@ -1,818 +1,714 @@
 export const fundamentalsCollection = {
-	name: "기초",
+	name: "The Whole Course",
 	areas: [
 		{
-			name: "HTML",//1학년
+			name: "1학년",
 			skills: [
 				{
-					name: "구문", //1학년 1학기 
-					description: {
-						text: "HTML의 기초를 배우고 HTML의 구문 및 주요 개념에 익숙해지십시오.",
-						links: [
-							["MDN - HTML Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"],
-							["MDN - Introduction to HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"],
-							["Codecademy - Learn HTML", "https://www.codecademy.com/learn/learn-html"],
-						]
-					},
+					name: "1학기",
 					skills: [
 						{
-							name: "기본HTMLTag",
+							name: "이산수학",
 							description: {
-								text: "기본 HTML Tag들을 익히세요",
+								text: "컴퓨터과학 및 디지털정보처리 분야의 수학적 기초가 되는 논리, 함수, 관계를 포함한 집합, 알고리즘, 수학적 귀납법 및 증명방법, 그래프, 트리, 부울 대수 등을 학습한다.",
 								links: [
-									["MDN - HTML elements reference", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"],
-									["Tutorialspoint - Basic HTML tags", "https://www.tutorialspoint.com/html/html_basic_tags.htm"],
-									["Elated - First 10 HTML tags", "https://www.elated.com/first-10-html-tags/"],
-									["W3Schools - HTML tags", "https://www.w3schools.com/tags/ref_byfunc.asp"]
-								]
-							},
-						},
-					]
-				},
-				{
-					name: "폼",
-					description: {
-						text: "효율적인 양식을 설계하고, 효과적으로 검증하며, 사용자에게 지속적으로 통지하는 방법에 대해 알아보십시오.",
-						links: [
-							["MDN - HTML forms", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms"],
-							["Google Web - Forms", "https://developers.google.com/web/fundamentals/design-and-ux/input/forms/"],
-							["W3Schools - Forms", "https://www.w3schools.com/html/html_forms.asp"],
-						]
-					}
-				},
-				{
-					name: "SEO",
-					description: {
-						text: "컨텐츠를 검색하기 쉽게 만드는 방법을 알아보십시오.",
-						links: [
-							["web.dev - Discoverable", "https://web.dev/discoverable"],
-							["Google Search - Get Started", "https://developers.google.com/search/docs/guides/get-started"],
-							["Google Search - SEO basics", "https://developers.google.com/search/docs/guides/javascript-seo-basics"],
-							["web.dev - SEO audits", "https://web.dev/lighthouse-seo"]
-						]
-					},
-					skills: [
-						{
-							name: "검색 가능한 콘텐츠",
-							description: {
-								text: "Hey bro",
-								links: [
-									["Google Web - Social Discovery", "https://developers.google.com/web/fundamentals/discovery/social-discovery"],
-									["Google Search - Search Features", "https://developers.google.com/search/docs/guides/search-features"],
-									["Google Search - Structured Data", "https://developers.google.com/search/docs/guides/intro-structured-data"],
-									["web.dev - Easily discoverable", "https://web.dev/discoverable"]
-								]
-							}
-						}
-					]
-				},
-				{
-					name: "Svg",
-					description: {
-						text: "모든 화면 해상도에서 그래픽을 선명하게 보이도록 SVG 파일로 작업하는 방법에 대해 알아 보십시오.",
-						links: [
-							["MDN - Adding vector graphics to the Web", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web"],
-							["SVG on the web", "https://svgontheweb.com/"],
-						]
-					}
-				},
-				{
-					name: "모범 사례",
-					description: {
-						text: "HTML 작성의 모범 사례에 대해 알아보십시오.",
-						links: [
-							["MDN - HTML guidelines", "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML"],
-							["W3Schools - HTML Coding Conventions", "https://www.w3schools.com/html/html5_syntax.asp"]
-						]
-					}
-				}
-			]
-		},
-		{
-			name: "CSS",
-			skills: [
-				{
-					name: "Syntax",
-					description: {
-						text: "CSS의 기본을 배우고 CSS의 구문 및 주요 개념에 익숙해지십시오.",
-						links: [
-							["MDN - CSS Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"],
-							["W3Schools - CSS Tutorial", "https://www.w3schools.com/css/default.asp"],
-							["Supercharged - CSS Selectors", "https://www.youtube.com/watch?v=IKho_xDKaLw"],
-							["MDN - CSS first steps", "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps"],
-							["MDN - CSS building blocks", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks"],
-							["MDN - CSS values and units", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"],
-							["MDN - CSS Syntax", "https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax"],
-						]
-					}
-				},
-				{
-				name: "선택자",
-				description: {
-					text: "CSS 선택자에 대해 배우고 DOM에 효과적으로 타겟팅하는 방법 알아보기",
-					links: [
-						["MDN - CSS 선택자", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors"],
-						["MDN - 전체 선택자", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"],
-						["CSS Tricks - 자손 & 형식 선택자", "https://css-tricks.com/child-and-sibling-selectors/"],
-						["CSS Tricks - 전체 선택자", "https://css-tricks.com/almanac/selectors/"],
-						["W3Schools - CSS 연결자", "https://www.w3schools.com/css/css_combinators.asp"]
-					]
-									},
-					skills: [
-						{
-							name: "특정성",
-							description: {
-								text: "CSS를 작성할 때 특정성 의미와 사용 방법 알아보기.",
-								links: [
-									["MDN - Specificity", "https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity"],
-									["MDN - Cascade and inheritance", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance"],
-									["dev.to - CSS Specificity", "https://dev.to/emmawedekind/css-specificity-1kca"],
-									["Specificity Calculator", "https://specificity.keegan.st/"],
-									["W3Schools - CSS Specificity", "https://www.w3schools.com/css/css_specificity.asp"]
-								]
-							},
-						},
-						{
-							name: "Pseudo Selectors",
-							description: {
-								text: "Learn how to use pseudo selectors.",
-								links: [
-									["MDN - Pseudo-classes", "https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"],
-									["CSS Tricks - Meet the Pseudo Class Selectors", "https://css-tricks.com/pseudo-class-selectors/"],
-									["When do the :hover, :focus, and :active pseudo-classes apply?", "https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/"],
-									["W3Schools - CSS Pseudo-elements", "https://www.w3schools.com/css/css_pseudo_elements.asp"],
-									["W3Schools - CSS Pseudo-classes", "https://www.w3schools.com/css/css_pseudo_classes.asp"],
-								]
-							},
-						},
-					]
-				},
-				{
-					name: "박스 모델",
-					description: {
-						text: "css 박스 모델이 무엇을 의미하는지 알아보자",
-						links: [
-							["MDN - Introduction to the CSS basic box model", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"],
-							["MDN - The box model", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model"],
-							["CSS Tricks - Inheriting box-sizing", "https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/"],
-						]
-					},
-					skills: [
-						{
-							name: "Margin Collapsing",
-							description: {
-								text: "Learn about margin collapsing.",
-								links: [
-									["MDN - Mastering margin collapsing", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing"],
-									["Margin Collapse in CSS: What, Why, and How", "https://medium.com/@joseph0crick/margin-collapse-in-css-what-why-and-how-328c10e37ca0"],
-									["CSS Tricks - What You Should Know About Collapsing Margins", "https://css-tricks.com/what-you-should-know-about-collapsing-margins/"],
-									["What's the Deal with Collapsible Margins?", "https://bitsofco.de/collapsible-margins/"],
-									["What’s the Deal with Margin Collapse?", "https://jonathan-harrell.com/whats-the-deal-with-margin-collapse/"],
-								]
-							},
-						}
-					]
-				},
-				/*{
-					name: "Overflow",
-					description: {
-						text: "Learn about what happens when there is too much content to be contained comfortably inside a box and how to manage it.",
-						links: [
-							["MDN - Overflowing content", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Overflowing_content"],
-							["W3Schools - CSS Layout: Overflow", "https://www.w3schools.com/css/css_overflow.asp"],
-							["Overflow In CSS", "https://ishadeed.com/article/overflow-css/"]
-						]
-					},
-				},*/
-				{
-					name: "Colors",
-					description: {
-						text: "Learn the different ways you can define colors in CSS.",
-						links: [
-							["MDN - Color", "https://developer.mozilla.org/en-US/docs/Web/CSS/color"],
-							["MDN - <color>", "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value"],
-							["W3Schools - CSS Colors", "https://www.w3schools.com/css/css_colors.asp"],
-						]
-					},
-				},
-				{
-					name: "계산",
-					description: {
-						text: "CSS 계산 함수를 사용하는 방법에 대해 배우십시오.",
-						links: [
-							["MDN - Calc", "https://developer.mozilla.org/en-US/docs/Web/CSS/calc"],
-							["CSS Tricks - A Couple of Use Cases for Calc()", "https://css-tricks.com/a-couple-of-use-cases-for-calc/"],
-						]
-					},
-				},
-				{
-					name: "레이아웃",
-					description: {
-						text: "웹에 대한 다양한 레이아웃 유형 알아보기.",
-						links: [
-							["Chrome Dev - Basic Layout", "https://developers.google.com/training/certification/mobile-web-specialist/study-guide/basic-layout"],
-							["W3Schools - CSS Website Layout", "https://www.w3schools.com/css/css_website_layout.asp"],
-							["MDN - Document and website structure", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure"],
-							["MDN - CSS layout", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout"],
-						]
-					},
-					skills: [
-						{
-							name: "플렉스",
-							description: {
-								text: "Flexbox를 사용하여 레이아웃을 만드는 방법에 대해 알아 보십시오",
-								links: [
-									["MDN - Flexbox", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox"],
-									["A Complete Guide to Flexbox", "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"],
-									["MDN - Flexbox", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"],
-									["Flexbox Froggy", "https://flexboxfroggy.com/"],
-									["Flexbox Defense", "http://flexboxdefense.com"],
-								]
-							},
-						},
-						{
-							name: "Grid",
-							description: {
-								text: "CSS 그리드를 사용하여 레이아웃을 만드는 방법에 대해 알아 보십시오.",
-								links: [
-									["MDN - Grids", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids"],
-									["A Complete Guide to CSS Grid", "https://css-tricks.com/snippets/css/complete-guide-grid/"],
-									["MDN - CSS Grid", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout"],
-									["CSS Grid Garden", "https://cssgridgarden.com/"],
-									["Supercharged - CSS Grids", "https://www.youtube.com/watch?v=AqwPrR7hklE"]
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "변환",
-               description: {
-                  text: "CSS를 통해 요소를 변환하는 다양한 방법에 대해 알아보십시오.",
-						links: [
-							["MDN - transform", "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"],
-							["CSS Tricks - Transform", "https://css-tricks.com/almanac/properties/t/transform/"],
-						]
-					},
-					skills: [
-						{
-							name: "Animations",
-							description: {
-								text: "키프레임을 사용하여 CSS를 통해 요소를 애니메이션화하는 방법에 대해 알아 보십시오.",
-								links: [
-									["MDN - Using CSS animations", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"],
-									["CSS Tricks - Animation", "https://css-tricks.com/almanac/properties/a/animation/"],
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "응답형 디자인",
-					description: {
-						text: "다양한 화면 크기에서 작동하도록 웹 사이트를 반응 형으로 만드는 방법을 알아 봅니다.",
-						links: [
-							["MDN - Responsive design", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"],
-							["Responsive Web Design Fundamentals by Google", "https://www.udacity.com/course/responsive-web-design-fundamentals--ud893"],
-							["Google Dev - Responsive Design", "https://developers.google.com/web/fundamentals/design-and-ux/responsive"],
-							["Google Dev - UX Patterns", "https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns"],
-							["Google Dev - Responsive Content", "https://developers.google.com/web/fundamentals/design-and-ux/responsive/content"],
-							["Codelabs - Responsive Design", "https://codelabs.developers.google.com/codelabs/pwa-responsive-design/index.html?index=..%2F..dev-pwa-training#0"],
-						]
-					},
-					skills: [
-						{
-							name: "미디어 쿼리",
-							description: {
-								text: "미디어 쿼리를 사용하여 응답형 레이아웃을 구축하는 방법 알아보기.",
-								links: [
-									["CSS Tricks - CSS Media Queries & Using Available Space", "https://css-tricks.com/css-media-queries/"],
-									["MDN - Using media queries", "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries"],
-									["MDN - Using Media Queries for Accessibility", "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_Media_Queries_for_Accessibility"],
-								]
-							},
-						},
-						{
-							name: "상대 단위",
-							description: {
-								text: "글꼴 크기 및 간격과 같은 속성에 상대 단위를 사용하는 방법에 대해 배우십시오.",
-								links: [
-									["MDN - Sizing items in CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS"],
-									["MDN - CSS values and units", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"],
-									["The CSS Workshop - Relative Units", "https://thecssworkshop.com/lessons/relative-units"],
-									["CSS Tricks - Fun with Viewport Units", "https://css-tricks.com/fun-viewport-units/"],
-									["dev.to - 15 CSS Relative units", "https://dev.to/bytegasm/15-css-relative-units-how-many-do-you-know-em-rem-ex-cap-ch-ic-6m"],
-								]
-							},
-						},
-						{
-							name: "Images",
-							description: {
-								text: "Learn how to make images responsive, always showing the best possible version for the screen size.",
-								links: [
-									["Google Devs - Responsive Images", "https://developers.google.com/web/fundamentals/design-and-ux/responsive/images"],
-									["MDN - Responsive Images", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"],
-								]
-							}
-						}
-					]
-				},
-				{
-					name: "CSS 변수",
-					description: {
-						text: "CSS 변수를 정의하고 사용하는 방법에 대해 알아 보십시오.",
-						links: [
-							["MDN - CSS 사용자 지정 속성 사용.", "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties"],
-							["Google Devs - CSS 변수: 왜 신경써야 하는가?", "https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care"],
-							["dev.to - CSS 요약: CSS 변수.", "https://dev.to/lampewebdev/css-quickies-css-variables-or-how-you-create-a-white-dark-theme-easily-1i0i"],
-							["CSS 변수가 5가지 예와 함께 설명됨.", "https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd"],
-						]
-					}
-				},
-				{
-					name: "Best Practices",
-					description: {
-						text: "CSS 작성의 모범 사례 알아보기.",
-						links: [
-							["MDN - CSS 가이드라인", "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/CSS"],
-							["MDN - CSS 구성하기", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing"],
-							["Speckyboy - CSS 좋은 사례와 나쁜 사례", "https://speckyboy.com/good-bad-css-practices/"],
-						]
-					}
-				}
-			]
-		},
-		{
-			name: "Javascript",
-			skills: [
-				{
-					name: "개념",
-					description: {
-						text: "Javascript의 기본 사항을 배우고 구문 및 주요 개념에 익숙해 지십시오.",
-						links: [
-							["MDN - Javascript 첫 단계", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps"],
-							["MDN - Javascript 기본", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"],
-							["MDN - Javascript 블록 쌓기", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks"],
-							/* ["You might not need jQuery", "http://youmightnotneedjquery.com/"],*/
-						]
-					},
-					skills: [
-						{
-							name: "spread",
-							description: {
-								text: "javascript spread 를 통해 배열을 활용하는 법을 배웁시다.",
-								links: [
-									["MDN - Spread syntax", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax"],
-									["Freecodecamp - An introduction to Spread syntax", "https://www.freecodecamp.org/news/an-introduction-to-spread-syntax-in-javascript-fba39595922c/"],
-									["Object rest and spread properties", "https://v8.dev/features/object-rest-spread"],
-								]
-							},
-						},
-						{
-							name: "Destructuring",
-							description: {
-								text: "Learn how destructuring can help you when working with objects.",
-								links: [
-									["MDN - Destructuring assignment", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"],
-									["MDN - ES6 In Depth: Destructuring", "https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/"],
-									["javascript.info - Destructuring assignment", "https://javascript.info/destructuring-assignment"],
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "DOM",
-					description: {
-						text: "Learn how the HTML is represented as objects that comprise the structure and content of a document.",
-						links: [
-							["MDN - DOM Introduction", "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"],
-							["Freecodecamp - What's the DOM", "https://www.freecodecamp.org/news/whats-the-document-object-model-and-why-you-should-know-how-to-use-it-1a2d0bc5429d/"],
-							["Introduction to the DOM", "https://learn.co/lessons/introduction-to-the-dom"],
-							["htmldom.dev", "https://htmldom.dev/"],
-						]
-					},
-					skills: [
-						{
-							name: "DOM Manipulation",
-							description: {
-								text: "Learn how to query HTML elements through Javascript and manipulate them.",
-								links: [
-									["MDN - Locating DOM elements using selectors", "https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors"],
-									["Supercharged - querySelector", "https://www.youtube.com/watch?v=s0vg_H9hBuU"],
-								]
-							}
-						},
-					]
-				},
-				{
-					name: "Events",
-					description: {
-						text: "Learn how to dispatch and listen for events.",
-						links: [
-							["MDN - Introduction to events", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events"],
-							["MDN - Creating and triggering events", "https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events"],
-							["Event Bubbling and Event Capturing in JavaScript", "https://medium.com/@vsvaibhav2016/event-bubbling-and-event-capturing-in-javascript-6ff38bec30e"],
-							["Freecodecamp - A simplified explanation of event propagation", "https://www.freecodecamp.org/news/a-simplified-explanation-of-event-propagation-in-javascript-f9de7961a06e/"],
-							["JavaScript Events Explained", "https://flaviocopes.com/javascript-events/"],
-							["MDN - addEventListener()", "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener"],
-							["MDN - removeEventListener(", "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener"],
-							["Event order", "https://www.quirksmode.org/js/events_order.html"],
-						]
-					}
-				},
-				{
-					name: "Objects",
-					description: {
-						text: "Learn how to create and use objects.",
-						links: [
-							["MDN - Introducing JavaScript objects", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects"],
-							["MDN - Working with objects", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects"],
-							["javascript.info - Objects", "https://javascript.info/object"],
-							["MDN - this", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this"],
-							["W3Schools - The JavaScript this Keyword", "https://www.w3schools.com/js/js_this.asp"],
-							["MDN - bind()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"],
-							["MDN - new operator", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new"],
-							["MDN - new.target", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target"],
-							["Data Structures: Objects and Arrays", "https://scotch.io/courses/10-need-to-know-javascript-concepts/data-structures-objects-and-arrays"],
-						]
-					},
-					skills: [
-						{
-							name: "Prototype",
-							description: {
-								text: "Learn how to extend objects and functions through its prototype.",
-								links: [
-									["The prototype chain", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"],
-									["Prototypes in JavaScript", "https://medium.com/better-programming/prototypes-in-javascript-5bba2990e04b"],
-									["dev.to - JavaScript Visualized: Prototypal Inheritance", "https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co"],
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
 								]
 							},
 							skills: [
 								{
-									name: "Classes",
+									name: "창의공학설계",
 									description: {
-										text: "Learn how to define and use classes. Get somewhat comfortable with some of the object oriented concepts such as inheritence and encapsulation.",
+										text: "여러 가지 다양한 문제의 해결 과정을 통해서 참여 학생의 창의적 능력을 키우며, 문제의 해결에 대한 능력 향상과 함께 팀활동을 체험한다.",
 										links: [
-											["MDN - Classes", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"],
-											["Medium - ES6 Classes", "https://medium.com/@luke_smaki/javascript-es6-classes-8a34b0a6720a"],
-											["MDN - Inheritance", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance"],
-											["MDN - Object Oriented Programming", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS"],
-											["MDN - super", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super"],
+											["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
 										]
-									}
-								}
+									},
+									skills: [
+										{
+											name: "미래설계탐색",
+											description: {
+												text: "스트롱 직업흥미검사를 온라인으로 실시하고, 해석 워크샵을 그 결과를 알게함으로써 자신의 직업적 흥미 경향성을 알아보고, 지속적인 상담 및 지도를 통해 자기를 이해하고 개인 가치관을 확립한다.",
+												links: [
+													["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
+												]
+											},
+											skills: [
+												{
+													name: "기초컴퓨터프로그래밍",
+													description: {
+														text: "Learn what Software are doing and how they are moving the computer forward.",
+														links: [
+															["CBNU - Software", "https://software.cbnu.ac.kr/"],
+														]
+													},
+													skills: [
+														{
+															name: "글쓰기와 발표",
+															description: {
+																text: "Learn what Software are doing and how they are moving the computer forward.",
+																links: [
+																	["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																]
+															},
+															skills: [
+																{
+																	name: "수학Ⅰ",
+																	description: {
+																		text: "추상적이고 개념적인 수학 이론을 여러가지 전공 영역에 응용할 수 있도록 학습할 뿐만 아니라 실생활에서 나타나는 현상에 대해 수리적 분석과 응용을 할수 있도록 학습한다.",
+																		links: [
+																			["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																		]
+																	},
+																	skills: [
+																		{
+																			name: "Action English",
+																			description: {
+																				text: "Learn what Software are doing and how they are moving the computer forward.",
+																				links: [
+																					["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																				]
+																			},
+																			skills: [
+																				{
+																					name: "역사와 비판적 사고",
+																					description: {
+																						text: "Learn what Software are doing and how they are moving the computer forward.",
+																						links: [
+																							["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																						]
+																					}
+																				},
+																			]
+																		},
+																	]
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+									]
+								},
 							]
-						}
+						},
 					]
 				},
 				{
-					name: "Regex",
-					description: {
-						text: "Learn how to use regex to extract information from strings.",
-						links: [
-							["MDN - Regular Expressions", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions"],
-							["javascript.info - Regular expressions", "https://javascript.info/regular-expressions"],
-							["MDN - RegExp", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp"],
-						]
-					}
-				},
-				{
-					name: "Template Literals",
-					description: {
-						text: "Learn how template literals and tagged templates and help you manipulate strings.",
-						links: [
-							["MDN - Template literals", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"],
-							["MDN - ES6 In Depth: Template strings", "https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2/"],
-							["Google Devs - Getting Literal With ES6 Template Strings", "https://developers.google.com/web/updates/2015/01/ES6-Template-Strings"],
-						]
-					}
-				},
-				{
-					name: "Promises",
-					description: {
-						text: "Learn how to use promises and what asynchronous code means.",
-						links: [
-							["Google Devs - JavaScript Promises: an Introduction", "https://developers.google.com/web/fundamentals/primers/promises"],
-							["MDN - Promise", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"],
-							["Master the JavaScript Interview: What is a Promise?", "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261"],
-						]
-					},
+					name: "2학기",
 					skills: [
 						{
-							name: "Callbacks",
+							name: "컴퓨터 시스템 개론",
 							description: {
-								text: "Learn how to use callbacks and why they are not always a good idea.",
+								text: "컴퓨터에 대한 기초 지식을 부여하는 과목으로서 하드웨어, 소프트웨어 및 Firmware의 기능을 정의하고 프로그램과 컴퓨터 상호간에 관계 및 문제의 해결을 컴퓨터로 처리하는 방법을 습득한다.",
 								links: [
-									["MDN - Callback function", "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function"],
-									["JavaScript: What the heck is a Callback?", "https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced"],
-									["javascript.info - Callbacks", "https://javascript.info/callbacks"],
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
 								]
-							}
-						},
-						{
-							name: "Async/await",
-							description: {
-								text: "Learn how to use the async and await keywords to make it easier to write asynchronous code.",
-								links: [
-									["MDN - async function", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"],
-									["Google Devs - Async functions", "https://developers.google.com/web/fundamentals/primers/async-functions"],
-									["javascript.info - Async/await", "https://javascript.info/async-await"],
-								]
-							}
-						},
-						{
-							name: "Fetch",
-							description: {
-								text: "Learn how to use the fetch API to fetch data.",
-								links: [
-									["Google Devs - Introduction to fetch", "https://developers.google.com/web/updates/2015/03/introduction-to-fetch"],
-									["Google Devs - Networking", "https://developers.google.com/training/certification/mobile-web-specialist/study-guide/networking"],
-									["Freecodecamp - Fetch practical guide", "https://www.freecodecamp.org/news/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547/"],
-									["MDN - CORS", "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"],
-									["Alligator - Fetch API", "https://alligator.io/js/fetch-api/"],
-									["Supercharged - Fetch", "https://www.youtube.com/watch?v=GiI77ya60yk"],
-									["Codelabs - Fetch ", "https://codelabs.developers.google.com/codelabs/pwa-fetch/index.html?index=..%2F..dev-pwa-training#0"]
-								]
-							}
+							},
+							skills: [
+								{
+									name: "오픈소스 소프트웨어의 이해와 실습",
+									description: {
+										text: "IT분야에서 활발하게 사용되고 있는 오픈소스소프트웨어의 종류, 올바른 활용방법, 개발환경의 구성, 다양한 응용 등에 대해 학습하여 오픈소스소프트웨어에 대한 이해를 높이고 기본적인 활용방법을 배운다.",
+										links: [
+											["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
+										]
+									},
+									skills: [
+										{
+											name: "미래설계준비",
+											description: {
+												text: "스트롱 직업흥미검사를 온라인으로 실시하고, 해석 워크샵을 그 결과를 알게함으로써 자신의 직업적 흥미 경향성을 알아보고, 지속적인 상담 및 지도를 통해 자기를 이해하고 개인 가치관을 확립한다",
+												links: [
+													["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
+												]
+											},
+											skills: [
+												{
+													name: "응용컴퓨터프로그래밍",
+													description: {
+														text: "Learn what Software are doing and how they are moving the computer forward.",
+														links: [
+															["CBNU - Software", "https://software.cbnu.ac.kr/"],
+														]
+													},
+													skills: [
+														{
+															name: "영어읽기와 토론",
+															description: {
+																text: "Learn what Software are doing and how they are moving the computer forward.",
+																links: [
+																	["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																]
+															},
+															skills: [
+																{
+																	name: "수학Ⅱ",
+																	description: {
+																		text: "자연과학과 공학에서 매우 중요한 부분을 차지하고 있는 벡터 미분적분학의 기초적인 내용읋 학습한다.",
+																		links: [
+																			["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
+																		]
+																	},
+																	skills: [
+																		{
+																			name: "맛보기물리학 및 실험",
+																			description: {
+																				text: "물리학 기본 개념과 물리학의 적용방법과 물리학의 기본적인 지식을 습득하고 나아가 과학적 사고방식을 익힐 수 있다.",
+																				links: [
+																					["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																				]
+																			},
+																			skills: [
+																				{
+																					name: "공업법규와 창업",
+																					description: {
+																						text: "Learn what Software are doing and how they are moving the computer forward.",
+																						links: [
+																							["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																						]
+																					}
+																				},
+																			]
+																		},
+																	]
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+							]
 						},
 					]
 				},
-				{
-					name: "Web Animations",
-					description: {
-						text: "Learn how to use web animations to animate elements in the DOM.",
-						links: [
-							["Google Devs - Animations", "https://developers.google.com/web/fundamentals/design-and-ux/animations"],
-							["MDN - Using The Web Animations API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API"],
-							["CSS Tricks - CSS Animations vs Web Animations API", "https://css-tricks.com/css-animations-vs-web-animations-api/"],
-						]
-					}
-				},
-				{
-					name: "Modules",
-					description: {
-						text: "Learn how to modularize your code into ES6 modules using the export and import keywords.",
-						links: [
-							["MDN - Export", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export"],
-							["MDN - Import", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import"],
-							["V8 - Modules", "https://v8.dev/features/modules"],
-							["Freecodecamp - A Practical guide to ES6 modules", "https://www.freecodecamp.org/news/how-to-use-es6-modules-and-why-theyre-important-a9b20b480773/"],
-						]
-					}
-				},
-				{
-					name: "Intl",
-					description: {
-						text: "Learn how to localize your website using the Intl API.",
-						links: [
-							["MDN - Intl", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl"],
-							["MDN - Date Time Format", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat"],
-							["New Intl APIs in JavaScript", "https://blog.bitsrc.io/new-intl-apis-in-javascript-c50dc89d2cf3"],
-						]
-					}
-				},
-				{
-					name: "Canvas",
-					description: {
-						text: "Learn how to paint graphics onto a canvas.",
-						links: [
-							["MDN - Canvas tutorial", "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial"],
-							["MDN - Canvas API", "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"],
-							["CSS Tricks - Manipulating Pixels Using Canvas", "https://css-tricks.com/manipulating-pixels-using-canvas/"],
-						]
-					}
-				},
-				{
-					name: "Documentation",
-					description: {
-						text: "Learn how to create good documentation and why it is important.",
-						links: [
-							["Getting Started with JSDoc", "https://jsdoc.app/about-getting-started.html"],
-							["A beginner’s guide to writing documentation", "https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/"],
-							["Write Good Documentation", "https://hackernoon.com/write-good-documentation-6caffb9082b4"],
-							["The power of jsDoc", "https://dev.to/gmartigny/the-power-of-jsdoc-272d"],
-							["Document your Javascript code with JSDoc", "https://dev.to/paulasantamaria/document-your-javascript-code-with-jsdoc-2fbf"],
-						]
-					},
-				},
-				{
-					name: "Best Practices",
-					description: {
-						text: "Learn the best practices of writing Javascript.",
-						links: [
-							["MDN - JavaScript guidelines", "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/JavaScript"],
-							["Airbnb - JavaScript Style Guide", "https://github.com/airbnb/javascript"],
-							["Principles of Writing Consistent, Idiomatic JavaScript", "https://github.com/rwaldron/idiomatic.js/"],
-							["5 JavaScript Style Guides", "https://codeburst.io/5-javascript-style-guides-including-airbnb-github-google-88cbc6b2b7aa"],
-							["JavaScript Style Guide and Coding Conventions", "https://www.w3schools.com/js/js_conventions.asp"],
-						]
-					}
-				}
 			]
 		},
+
+
 		{
-			name: "The Browser",
+			name: "2학년",
 			skills: [
 				{
-					name: "Standardization",
-					description: {
-						text: "Learn why web standards are important and how new specifications are standardised.",
-						links: [
-							["Wikipedia - Web Standards", "https://en.wikipedia.org/wiki/Web_standards"],
-							["What Are Web Standards?", "https://www.elcom.com.au/resources/blog/web-standards"],
-							["A Comprehensive Explanation of Web Standards", "https://robertnyman.com/2007/05/21/what-are-web-standards-a-comprehensive-explanation-of-what-is-comprised-in-the-term/"],
-						]
-					},
+					name: "1학기",
 					skills: [
 						{
-							name: "W3C",
+							name: "자료구조",
+							description: {
+								text: "컴퓨터에서 처리하는 데이터 기본 개념과 이를 효율적으로 처리하기 위한 자료 구조인 Array, Stack, Queue 및 Linked List 등의 자료구조에 대하여 공부한다. 또는 이를 이용한 Tree Manipulation, 그래프 이론, 자료 정렬 및 검색과 Symbol Table 작성 방법에 대하여 학습한다.",
+								links: [
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
+								]
+							},
+							skills: [
+								{
+									name: "컴퓨터구조",
+									description: {
+										text: "컴퓨터 관련 전공자들이 필수적으로 알고 있어야 할 컴퓨터 하드웨어의 동작 원리에 대하여 학습한다. 컴퓨터의 구성 요소인 중앙처리장치, 기억장치, 입출력장치의 동작 원리를 이해하고, 중앙처리장치가 명령어를 실행하는 과정에 대하여 자세히 배운다.",
+										links: [
+											["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
+										]
+									},
+									skills: [
+										{
+											name: "선형대수학",
+											description: {
+												text: "행렬과 연립방정식, 행렬식, 벡터공간, 선형변환, 고유값, 특이값 분해 등의 이해를 통해 전산 응용 수학의 기초지식을 습득한다.",
+												links: [
+													["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
+												]
+											},
+											skills: [
+												{
+													name: "객체지향프로그래밍",
+													description: {
+														text: "객체지향 개념 및 프로그래밍 기법에 대한 이론적 학습과 실습을 통하여 객체지향 프로그램을 개발하고, 실제 응용 프로그래밍에 활용할 수 있는 능력을 함양한다.",
+														links: [
+															["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
+														]
+													},
+													skills: [
+														{
+															name: "기초통계학",
+															description: {
+																text: "기초통계학 수준에서 필요한 통계학의 기초개념을 이해하고 통계적 사고의 기초를 확립하고자 한다.",
+																links: [
+																	["W3C - About", "https://www.w3.org/standards/about.html"],
+																]
+															},
+															skills: [
+																{
+																	name: "오픈소스 기초프로젝트",
+																	description: {
+																		text: "Learn what W3C are doing and how they are moving the web forward.",
+																		links: [
+																			["W3C - About", "https://www.w3.org/standards/about.html"],
+																		]
+																	},
+																	skills: [
+																		{
+																			name: "소프트웨어 실전영어",
+																			description: {
+																				text: "본 수업은 소프트웨어 개발자들의 다양한 업무에서 요구되는 영어 능력 향상을 위해 다양한 관련 상황을 통해 영어를 학습해나간다. 학생들은 소프트웨어 개발자로써 필요한 영어 능력들, 예를 들어 코드 분석 문서, 버그 리포팅, 이메일, 이력서 등을 영어로 작성함으로써 실제 문법과 쓰기를 배우고, 이들을 영어로 발표하거나 실제 인터뷰를 진행하는 등의 방식으로 실질적인 영어 학습의 기회를 얻는다.",
+																				links: [
+																					["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
+																				]
+																			},
+																		},
+																	]
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				{
+					name: "2학기",
+					skills: [
+						{
+							name: "알고리즘",
+							description: {
+								text: "일반적으로 널리 알려진 알고리즘 및 대표적인 응용분야에 적용되는 알고리즘 기능 및 처리 과정을 배운다. 알고리즘의 난해도를 분석하고 효율적인 알고리즘을 설계하는 기법을 익힌다.",
+								links: [
+									["CBNU - Software", "https://software.cbnu.ac.kr/"],
+								]
+							},
+							skills: [
+								{
+									name: "프로그래밍언어론",
+									description: {
+										text: "이 과목은 컴퓨터 프로그래밍 언어에 적용되고 있는 기본 개념에 대해서 학습하고 최신 프로그래밍 언어가 가지고 있는 특징을 개괄한다. 이를 통하여 사용할 프로그램 언어를 선택할 수 있는 능력을 배양하고 프로그램 언어의 설계 능력을 갖추도록 한다.",
+										links: [
+											["CBNU - Software", "https://software.cbnu.ac.kr/"],
+										]
+									},
+									skills: [
+										{
+											name: "창업탐색",
+											description: {
+												text: "4차 산업 혁명과 관련된 기술 동향을 파악하고 창업 과정에 필요한 기본 지식을 습득한다. 초청 강연과 창업에 관한 다양한 활동를 통하여 전공 역량을 강화하고 도전 의식을 함양한다.",
+												links: [
+													["CBNU - Software", "https://software.cbnu.ac.kr/"],
+												]
+											},
+											skills: [
+												{
+													name: "오픈소스 개발프로젝트",
+													description: {
+														text: "오픈 소스 프로그래밍 언어인 자바를 이용하여 실생활에 적용 가능한 소프트웨어를 개발하고, 이러한 개발과정에서 프로그램의 역할과 프로그램 코드의 체계적인 개발에 대한 중요성을 이해한다.",
+														links: [
+															["CBNU - Software", "https://software.cbnu.ac.kr/"],
+														]
+													},
+													skills: [
+														{
+															name: "시스템 프로그래밍",
+															description: {
+																text: "컴퓨터 시스템의 효율적인 사용이 요구되는 하드웨어와 소프트웨어 구조의 이해, Assembly Language 이해를 통해 Assembler, Loader 등의 설계방법 도입",
+																links: [
+																	["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																]
+															},
+															skills: [
+																{
+																	name: "확률 및 통계",
+																	description: {
+																		text: "통계적 개념과 통계적 사고방법의 도입을 통해 전자계산기 시스템 분야에서의 응용 능력 배양",
+																		links: [
+																			["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																		]
+																	},
+																	skills: [
+																		{
+																			name: "컴퓨터 그래픽스",
+																			description: {
+																				text: "컴퓨터 그래픽스 분야를 구성하는 렌더링, 애니메이션, 그리고 기하모델링 등의 기본 주제에 관한 이론과 실제를 다루며 대표적인 실시간 3차원 그래픽스 프로그래밍 툴을 사용하여 그래픽스 프로그래밍 기법을 익힌다.",
+																				links: [
+																					["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																				]
+																			},
+																			skills: [
+																				{
+																					name: "공학윤리와 역사",
+																					description: {
+																						text: "Learn what W3C are doing and how they are moving the web forward.",
+																						links: [
+																							["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																						]
+																					},
+																				},
+																			]
+																		},
+																	]
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+		},
+
+		{
+			name: "3학년",
+			skills: [
+
+				{
+					name: "1학기",
+					skills: [
+						{
+							name: "운영체제",
+							description: {
+								text: "운영체제, 특히 다중 프로그래밍 시분할 시스템, 비동기 병행프로세서의 기본개념을 다룬다. 스케쥴링, 메모리 관리 정보의 고유 및 보호 등의 개념을 습득한다.",
+								links: [
+									["CBNU - Software", "https://software.cbnu.ac.kr/"],
+								]
+							},
+							skills: [
+								{
+									name: "객체지향 설계",
+									description: {
+										text: "객체지향 개발 방법에 의하여 소프트웨어를 분석하고 설계하기 위한 기본 개념의 이해 및 기법들을 대하여 학습하고, 프로젝트를 통한 문제 분석 및 설계 과정을 진행한다.",
+										links: [
+											["CBNU - Software", "https://software.cbnu.ac.kr/"],
+										]
+									},
+									skills: [
+										{
+											name: "창업기획",
+											description: {
+												text: "4차 산업 혁명과 관련된 기술 동향을 파악하고 창업에 관련된 전문 역량을 키운다. 초청강연과 창업에 관한 다양한 활동를 통하여 전공 역량을 강화하고 도전 의식을 함양한다.",
+												links: [
+													["CBNU - Software", "https://software.cbnu.ac.kr/"],
+												]
+											},
+											skills: [
+												{
+													name: "오픈소스 전문프로젝트",
+													description: {
+														text: "소프트웨어 개발이 단순한 코딩 작업만이 아니라, 분석 및 설계 과정을 거쳐 개발되어야 함을 이해하고, 오픈 소스 툴을 사용하여 웹과 앱에서 실행되는 어플리케이션을 개발하는 기술을 학습한다.",
+														links: [
+															["CBNU - Software", "https://software.cbnu.ac.kr/"],
+														]
+													},
+													skills: [
+														{
+															name: "오픈소스 웹 소프트웨어",
+															description: {
+																text: "소프트웨어 개발이 단순한 코딩 작업만이 아니라, 분석 및 설계 과정을 거쳐 개발되어야 함을 이해하고, 오픈 소스 툴을 사용하여 웹과 앱에서 실행되는 어플리케이션을 개발하는 기술을 학습한다.",
+																links: [
+																	["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																]
+															},
+															skills: [
+																{
+																	name: "컴파일러",
+																	description: {
+																		text: "최신 컴파일러를 중심으로 어휘분석, 파싱 및 코드생성 등 일련의 컴파일 과정을 학습한다. 특히 컴퓨터 프로그래밍 언어가 가지고 있는 다양한 특징들을 컴파일 단계에서 어떻게 구현되는 가를 학습한다.",
+																		links: [
+																			["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																		]
+																	},
+																	skills: [
+																		{
+																			name: "컴퓨터 네트워크",
+																			description: {
+																				text: "네트워크의 기본 개념과 네트워크의 구조, TCP/IP 프로토콜 구조, 네트워크, 전송 및 응용 계층 프로토콜들에 관련한 기술 및 원리에 대해 인터넷을 중심으로 학습한다.",
+																				links: [
+																					["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																				]
+																			},
+																		},
+																	]
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				{
+					name: "2학기",
+					skills: [
+						{
+							name: "소프트웨어공학",
+							description: {
+								text: "소프트웨어 공학에 대한 기본적인 개념의 이해와 소프트웨어 개발 과정에서 품질을 향상시키기 위해 요구되는 공학적 활동에 대하여 학습하고, 주어진 문제의 소프트웨어 개발을 위한 프로젝트를 진행한다.",
+								links: [
+									["CBNU - Software", "https://software.cbnu.ac.kr/"],
+								]
+							},
+							skills: [
+								{
+									name: "산학프로젝트(종합설계)",
+									description: {
+										text: "산업체(가족회사)의 멘토 또는 취업 선배(멘토)와의 연계를 통해 산업체가 수행하고 있는 프로젝트를 이해하고, 산업체에서 프로젝트 수행에 따른 문제점과 이에 대한 해결 방안을 멘토와 함께 해결함으로써, 현장의 실전을 이해한다",
+										links: [
+											["CBNU - Software", "https://software.cbnu.ac.kr/"],
+										]
+									},
+									skills: [
+										{
+											name: "창업설계",
+											description: {
+												text: "4차 산업 혁명과 관련된 기술 동향을 파악하고 창업에 관련된 실무 경험을 수행한다. 초청 강연과 창업에 관한 다양한 활동를 통하여 전공 역량을 강화하고 도전 의식을 함양한다.",
+												links: [
+													["CBNU - Software", "https://software.cbnu.ac.kr/"],
+												]
+											},
+											skills: [
+												{
+													name: "데이터베이스 시스템",
+													description: {
+														text: "이 과목에서는 데이터베이스의 기본 개념과 개체-관계(E-R) 다이어그램, 관계형 데이터 모델 및 SQL 문의 사용, 데이터베이스 설계, 데이터베이스 보안 등은 물론 DBMS 구조와 그 기능을 공부한다. 아울러 실제 응용에서 시스템 개발과 웹의 연동 방법 등을 학습한다.",
+														links: [
+															["CBNU - Software", "https://software.cbnu.ac.kr/"],
+														]
+													},
+													skills: [
+														{
+															name: "펌웨어프로그래밍",
+															description: {
+																text: "마이크로컴퓨터 시스템의 하드웨어 구성 요소를 이해하고, 마이크로프로세서 실습 장비를 사용하여 하드웨어를 제어하기 위한 시스템 시작 코드 해석, 인터럽트 및 타이머 제어 프로그래밍, 입출력 디바이스 제어를 위한 펌웨어 프로그래밍 기술을 습득한다.",
+																links: [
+																	["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																]
+															},
+															skills: [
+																{
+																	name: "정보보호",
+																	description: {
+																		text: "정보보호 기초 이론 학습과 네트워크 보안 및 시스템 보안의 기본 개념을 이해하고 안전한 정보 시스템 구축 및 안전한 네트워크 서비스를 제공할 수 있는 방법을 습득한다.",
+																		links: [
+																			["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																		]
+																	},
+																	skills: [
+																		{
+																			name: "인공지능",
+																			description: {
+																				text: "인공지능의 성공적인 적용분야 및 목표를 살펴보고, 대표적인 지능적인 문제 해결 기법들, 지식표현 방법 및 추론, 지식기반 시스템, 자연어처리, 컴퓨터 비전, 지능로봇 등에 대해서 학습한다.",
+																				links: [
+																					["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																				]
+																			},
+																		},
+																	]
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+			]
+
+		},
+		{
+			name: "4학년",
+			skills: [
+				{
+					name: "1학기",
+					skills: [
+						{
+							name: "캡스톤디자인",
+							description: {
+								text: "컴퓨터과학의 기본 이론을 바탕으로 팀을 구성하여 주제를 선정하고, 프로젝트 진행 방법을 계획하여, 최종 결과물을 도출하기까지의 프로세스를 체계적으로 준수하면서 팀 기반의 프로젝트 수행을 경험한다.",
+								links: [
+									["CBNU - Software", "https://software.cbnu.ac.kr/"],
+								]
+							},
+							skills: [
+								{
+									name: "임베디드시스템",
+									description: {
+										text: "ARM기반 임베디드 시스템의 구조 및 시스템 소프트웨어 동작에 대해 학습하고, 리눅스 포팅, 부트로더, 디바이스 드라이버 작성 등의 실습 프로젝트를 수행한다.",
+										links: [
+											["CBNU - Software", "https://software.cbnu.ac.kr/"],
+										]
+									},
+									skills: [
+										{
+											name: "영상처리",
+											description: {
+												text: "디지털 영상처리에 대한 기본적인 지식과 함께 관련 분야에의 응용에 대한 기술을 심화한다. 그리고 최근의 영상처리이론과 연구결과를 접함으로써 선진 기술들에 대한 이해의 폭을 넓힌다.",
+												links: [
+													["CBNU - Software", "https://software.cbnu.ac.kr/"],
+												]
+											},
+											skills: [
+												{
+													name: "빅데이터시스템 설계",
+													description: {
+														text: "빅데이터시스템에서 데이터 전처리와 플랫폼, 그리고 정형 및 비정형의 빅데이터 수집, 저장, 분석과 탐색, 공유, 전파, 시각화, 질의, 갱신 등의 방법에 대한 이론과 실무를 학습한다. 또한 빅데이터시스템을 위한 동시성 제어와 회복기법, 보안정책을 학습한다.",
+														links: [
+															["CBNU - Software", "https://software.cbnu.ac.kr/"],
+														]
+													},
+													skills: [
+														{
+															name: "창업산학세미나I",
+															description: {
+																text: "산업체와 학교의 교류를 통한 기업가정신, 최신 IT기술 동향 및 산업체의 경영철학과 경영방법을 습득한다.",
+																links: [
+																	["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																]
+															},
+															skills: [
+																{
+																	name: "기계학습",
+																	description: {
+																		text: "데이터로부터 패턴을 추천하는 기계학습에 대한 핵심적인 원리를 소개한다. 지도학습, 비지도학습, 강화학습의 기본 개념을 소개하며, 주요 기계학습 알고리즘과 딥러닝 기법을 다룬다.",
+																		links: [
+																			["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																		]
+																	},
+																	skills: [
+																		{
+																			name: "컴퓨터 교재연구 및 지도법",
+																			description: {
+																				text: "컴퓨터 교과지도에 필요한 능력을 배양하고 컴퓨터와 그 응용에 관하여 지식을 습득하게 하며 기초적인 프로그래밍 실무를 익힐 수 있는 교재를 연구한다.",
+																				links: [
+																					["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																				]
+																			},
+																		},
+																	]
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				{
+					name: "2학기",
+					skills: [
+						{
+							name: "창업파일럿프로젝트",
 							description: {
 								text: "Learn what W3C are doing and how they are moving the web forward.",
 								links: [
-									["W3C - About", "https://www.w3.org/standards/about.html"],
-									["W3C - Standards", "https://www.w3.org/standards/"],
-									["W3C - Process", "http://webdiy.org/w3c/"],
-									["Web Standards Guide", "https://www.smashingmagazine.com/2019/01/web-standards-guide/"],
-									["W3C - Groups", "https://www.w3.org/community/groups/"],
-									["The W3C At Twenty-Five", "https://www.smashingmagazine.com/2019/10/happy-birthday-w3c/"],
-								]
-							}
-						},
-						{
-							name: "TC39",
-							description: {
-								text: "Learn what TC39 are doing and how they are moving the web forward.",
-								links: [
-									["The TC39 process for ECMAScript features", "https://2ality.com/2015/11/tc39-process.html"],
-									["Github - TC39", "https://github.com/tc39"],
-									["Ecma International - Programme of work", "https://www.ecma-international.org/memento/tc39.htm"],
-									["Wikipedia - Ecma International", "https://en.wikipedia.org/wiki/Ecma_International"],
+									["CBNU - Software", "https://software.cbnu.ac.kr/"],
 								]
 							},
-						},
-						{
-							name: "WHATWG",
-							description: {
-								text: "Learn what WHATWG are doing and how they are moving the web forward.",
-								links: [
-									["WHATWG - FAQ", "https://whatwg.org/faq"],
-									["WHATWG - Standards", "https://spec.whatwg.org/"],
-									["MDN - WHATWG", "https://developer.mozilla.org/en-US/docs/Glossary/WHATWG"],
-									["W3C vs. WHATWG HTML5 Specs", "https://dzone.com/articles/w3c-vs-whatwg-html5-specs"],
-									["WHATWG - HTML", "https://html.spec.whatwg.org/"],
-									["Wikipedia - WHATWG", "https://en.wikipedia.org/wiki/WHATWG"],
-								]
-							}
-						},
-						{
-							name: "Specifications",
-							description: {
-								text: "Learn how to read specifications developed by the standards committees.",
-								links: [
-									["How to Read the ECMAScript Specification", "https://timothygu.me/es-howto/"],
-									["How to Read W3C Specs", "https://alistapart.com/article/readspec/"],
-									["Learning CSS by reading specs", "https://www.chenhuijing.com/blog/learning-css-by-reading-specifications/"],
-									["Understanding the CSS Specifications", "https://www.w3.org/Style/CSS/read.en.html"],
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "Browser Engines",
-					description: {
-						text: "Learn what a browser engine is and get an overview of the browser landscape and market share.",
-						links: [
-								["Medium - Browser Engines", "https://medium.com/@jonbiro/browser-engines-chromium-v8-blink-gecko-webkit-98d6b0490968"],
-								["Wikipedia - Comparison", "https://en.wikipedia.org/wiki/Comparison_of_browser_engines"],
-								["HTML5 Rocks - How Browsers Work", "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"],
-								["Demystifying Browsers", "https://textslashplain.com/2020/02/09/demystifying-browsers/"],
-						]
-					},
-					skills: [
-						{
-							name: "Webkit",
-							description: {
-								text: "Learn about the Webkit browser engine.",
-								links: [
-									["Webkit", "https://webkit.org/"]
-								]
-							}
-						},
-						{
-							name: "Blink",
-							description: {
-								text: "Learn about the Blink browser engine.",
-								links: [
-									["Blink", "https://en.wikipedia.org/wiki/Blink_(browser_engine)"],
-								]
-							}
-						},
-						{
-							name: "Gecko",
-							description: {
-								text: "Learn about the Gecko browser engine.",
-								links: [
-									["Gecko", "https://en.wikipedia.org/wiki/Gecko_(software)"]
-								]
-							}
-						}
-					]
-				},
-				{
-					name: "HTTP",
-					description: {
-						text: "Learn how data is distributed through the HTTP protocol.",
-						links: [
-							["MDN - HTTP", "https://developer.mozilla.org/en-US/docs/Web/HTTP"],
-							["MDN - HTTP Glossary", "https://developer.mozilla.org/en-US/docs/Glossary/HTTP"],
-							["MDN - An overview of HTTP", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"],
-							["Wikipedia - Hypertext Transfer Protocol", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"],
-						]
-					}
-				},
-				{
-					name: "The Internet",
-					description: {
-						text: "Learn the basics of how the internet works.",
-						links: [
-							["MDN - How does the Internet work?", "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work"],
-							["Youtube - How the Internet Works in 5 Minutes", "https://www.youtube.com/watch?v=7_LPdttKXPc"],
-							["Explain That Stuff - Internet", "https://www.explainthatstuff.com/internet.html"],
-							["Stanford - How Does the Internet Work?", "https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm"],
-							["How the Internet Works", "https://blog.hubspot.com/marketing/how-the-internet-works"],
-						]
-					}
-				},
-				{
-					name: "Polyfills",
-					description: {
-						text: "Learn how it is possible to use polyfills to increase the browser support for your website.",
-						links: [
-							["MDN - Polyfill", "https://developer.mozilla.org/en-US/docs/Glossary/Polyfill"],
-							["Introduction To Polyfills & Their Usage", "https://medium.com/beginners-guide-to-mobile-web-development/introduction-to-polyfills-their-usage-9cd6db4b1923"],
-							["W3C - Polyfills and the evolution of the Web", "https://www.w3.org/2001/tag/doc/polyfills/"],
-							["Can I use", "http://caniuse.com/"],
-						]
-					}
-				},
-				{
-					name: "Debugging",
-					description: {
-						text: "Learn about the basics concepts of debugging.",
-						links: [
-							["Google Devs - Inspect and Edit Pages and Styles", "https://developers.google.com/web/tools/chrome-devtools/inspect-styles/"],
-							["MDN - Cross browser testing", "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing"],
-							["5 things to remember for better debugging of your code", "https://medium.com/dev-bits/5-things-to-remember-for-better-debugging-of-your-code-94b9bc3fb3df"],
-						]
-					},
-					skills: [
-						{
-							name: "Developer console",
-							description: {
-								text: "Learn how to use the developer console to debug your code.",
-								links: [
-									["MDN - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"],
-									["Google Devs - Console API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/api"],
-									["Google Devs - Get Started with Chrome DevTools", "https://developers.google.com/web/tools/chrome-devtools/javascript"],
-									["Google Devs - Console Utilities API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/utilities"],
-									["MDN - Debugging CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS"],
-									["MDN - Debugging HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML"],
-									["javascript.info - Debugging in Chrome", "https://javascript.info/debugging-chrome"],
-									["14 JavaScript debugging tips", "https://raygun.com/javascript-debugging-tips"],
-									["The definitive guide to debugging JavaScript", "https://flaviocopes.com/javascript-debugging/"],
-									["Youtube - Chrome DevTools 101", "https://www.youtube.com/watch?v=H0XScE08hy8"],
-									["Chrome Devs - Quickly monitor events", "https://developers.google.com/web/updates/2015/05/quickly-monitor-events-from-the-console-panel"],
-									["Youtube - 14 Must Know Chrome Dev Tools Tricks", "https://www.youtube.com/watch?v=xkzDaKwinA8"]
-								]
-							},
-							/*skills: [
+							skills: [
 								{
-									name: "Console API",
+									name: "정보검색",
 									description: {
-										text: "Learn how to use the console API.",
+										text: "정보 표현 및 저장 방법, 문헌 질의와 매칭과정, 텍스트 분석, 정보검색 검색효과 측정, 효과성 향상기법 등을 포함한 대량 정보의 조직적인 저장, 관리, 검색, 마이닝 기법에 대한 이론과 방법을 학습한다.",
 										links: [
-											["MDN - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"],
-											["Google Devs - Console API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/api"],
+											["CBNU - Software", "https://software.cbnu.ac.kr/"],
 										]
-									}
-								}
-							]*/
+									},
+									skills: [
+										{
+											name: "빅데이터분석시각화",
+											description: {
+												text: "이 강좌에서 수집된 데이터를 보다 쉽게 이해할 수 있도록 시각화는 대표적인 방법을 공부한다. 공부할 시각화 기법으로는 시간 시각화, 연계 시각화, 비교시각화, 분포시각화, 공간시각화 등이 있다. 머신 러닝 기법을 이용한 데이터 분석 결과를 보다 쉽게 볼 수 있는 시각화 기법도 소개한다.",
+												links: [
+													["CBNU - Software", "https://software.cbnu.ac.kr/"],
+												]
+											},
+											skills: [
+												{
+													name: "창업산학세미나II",
+													description: {
+														text: "산업체와 학교의 교류를 통한 기업가 정신, 최신 IT기술 동향 및 산업체의 경영철학과 경영방법을 습득한다.",
+														links: [
+															["CBNU - Software", "https://software.cbnu.ac.kr/"],
+														]
+													},
+													skills: [
+														{
+															name: "자연어 처리",
+															description: {
+																text: "사람이 사용하는 언어를 컴퓨터가 이해하여 지능적으로 처리하기 위한 다양한 알고리즘을 학습한다. 특히 웹 등에서 비정형 데이터로 존재하는 자연언어 텍스트를 처리하기 위해 단어 패턴 추출, 텍스트 정규화, 품사 태깅, 의미 모호성 해소, 부분 파싱, 개체명 인식, 관계 추출, 문서 분류 등에 대해 학습하고 이를 구현 및 활용하는 방법을 익힌다.",
+																links: [
+																	["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																]
+															},
+															skills: [
+																{
+																	name: "클라우드컴퓨팅",
+																	description: {
+																		text: "본 수업은 클라우드에 대한 상세한 개념과 IaaS, PaaS, SaaS, BPaaS과 같은 다양한 클라우드 서비스 모델에 대해 다룬다. 학생들은 Amazon Elastic Cloud, Microsoft’s Azure, Google App Engine을 활용한 프로젝트를 통해서 실질적인 경험을 얻을 수 있다.",
+																		links: [
+																			["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																		]
+																	},
+																	skills: [
+																		{
+																			name: "컴퓨터 논리 및 논술",
+																			description: {
+																				text: "컴퓨터 교과를 중심으로 학생의 새로운 창조적 아이디어로 표현하고, 아이디어의 타당성과 정당성을 체계적으로 전개하는 능력을 함양하도록 한다. 아울러 컴퓨터 논리에 대한 관련 자료의 탐색을 수행하여 그 결과를 정리하고 발표 및 토론하는 방식으로 중등 교육 현장에서 수요자 중심교육을 실시할 수 있도록 한다. 궁극적으로 컴퓨터 교과 교사로서의 기본 자질인 스스로 문제를 해결할 수 있는 창조적 사고력을 기반으로 지식사회가 필요로 하는 논리적 사고 능력을 습득한다.",
+																				links: [
+																					["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																				]
+																			},
+																			skills: [
+																				{
+																					name: "컴퓨터 교육론",
+																					description: {
+																						text: "컴퓨터에 관한 교육과 컴퓨터를 이용한 교육의 이론과 실제를 학습한다. 컴퓨터 교과의 역사적 배경, 컴퓨터 교과교육의 목표, 중·고등학교 교육과정의 분석 등 중등과정의 정보·컴퓨터 교육의 전반에 관하여 학습한다.",
+																						links: [
+																							["CBNU - Software", "https://software.cbnu.ac.kr/"],
+																						]
+																					},
+																				},
+																			]
+																		},
+																	]
+																},
+															]
+														},
+													]
+												},
+											]
+										},
+									]
+								},
+							]
 						},
-						/*{
-							name: "Breakpoints",
-							description: {
-								text: "Learn how to add breakpoints to your code.",
-								links: [
-									["Google Devs - How To Pause Your Code", "https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints"],
-									["Debugging Javascript Like a Pro", "https://blog.bitsrc.io/debugging-javascript-like-a-pro-a2e0f6c53c2e"],
-								]
-							}
-						}*/
 					]
-				}
+				},
 			]
-		}
+		},
 	]
 }

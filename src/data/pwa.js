@@ -1,675 +1,605 @@
 export const pwaCollection = {
-	name: "Progressive Webapps",
+	name: "Engineering Certification",
 	areas: [
 		{
-			name: "API's",
+			name: "BSM",
 			skills: [
 				{
-					name: "Storage",
+					name: "수학Ⅰ",
 					description: {
-						text: "Learn how to store data for your web app.",
+						text: "추상적이고 개념적인 수학 이론을 여러가지 전공 영역에 응용할 수 있도록 학습할 뿐만 아니라 실생활에서 나타나는 현상에 대해 수리적 분석과 응용을 할수 있도록 학습한다.",
 						links: [
-							["MDN - Storage", "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API"],
-							["MDN - Web Storage API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API"],
-							["MDN - Cookies", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies"],
-							["MDN - IndexedDB API", "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"],
-							["Google Devs - View And Edit Local Storage", "https://developers.google.com/web/tools/chrome-devtools/storage/localstorage"],
-							["MDN - Client-side storage", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage"],
-						]
-					}
-				},
-				{
-					name: "Routing",
-					description: {
-						text: "Learn what routing means in single page applications.",
-						links: [
-							["How Single-Page Applications Work", "https://blog.pshrmn.com/how-single-page-applications-work/"],
-							["Static Apps - Routing URLs in Static Web Apps", "https://staticapps.org/articles/routing-urls-in-static-apps/"],
-							["Routing With Single Page Applications or Client Side Routing", "https://pennyforyourcode.com/tldr-routing-with-single-page-applications-or-client-side-routing-327626cdc5dd"],
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
 						]
 					},
 					skills: [
 						{
-							name: "History API",
+							name: "수학Ⅱ",
 							description: {
-								text: "Learn how to use the history API to add single page applicaiton routing to your web app.",
+								text: "자연과학과 공학에서 매우 중요한 부분을 차지하고 있는 벡터 미분적분학의 기초적인 내용읋 학습한다.",
 								links: [
-									["MDN - Working with the History API", "https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API"],
-									["MDN - History API", "https://developer.mozilla.org/en-US/docs/Web/API/History_API"],
-									["Single-page application routing in vanilla JavaScript", "https://medium.com/@george.norberg/history-api-getting-started-36bfc82ddefc"],
-									["CSS Tricks - Using the HTML5 History API", "https://css-tricks.com/using-the-html5-history-api/"],
-									["The History API", "https://flaviocopes.com/history-api/"],
-									["Google Devs - History API: Scroll Restoration", "https://developers.google.com/web/updates/2015/09/history-api-scroll-restoration"],
-									["MDN - The Document Base URL element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base"]
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
 								]
 							},
-						}
+						},
+						
 					]
 				},
+				
 				{
-					name: "Service Workers",
+					name: "맛보기 물리학 및 실험",
 					description: {
-						text: "Learn how to register a service worker to provide a rich native-like experience.",
+						text: "물리학 기본 개념과 물리학의 적용방법과 물리학의 기본적인 지식을 습득하고 나아가 과학적 사고방식을 익힐 수 있다.",
 						links: [
-							["Google Devs - Service Workers: an Introduction", "https://developers.google.com/web/fundamentals/primers/service-workers"],
-							["Google Devs - The Service Worker Lifecycle", "https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle"],
-							["Google Devs - Service Worker Registration", "https://developers.google.com/web/fundamentals/primers/service-workers/registration"],
-							["MDN - Service Worker API", "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers"],
-							["Google Devs - High-performance service worker loading", "https://developers.google.com/web/fundamentals/primers/service-workers/high-performance-loading"],
-							["Codelabs - Scripting the service worker", "https://codelabs.developers.google.com/codelabs/pwa-scripting-the-service-worker/index.html?index=..%2F..dev-pwa-training#0"],
-							["Codelabs - Caching files with the service worker", "https://codelabs.developers.google.com/codelabs/pwa-caching-service-worker/index.html?index=..%2F..dev-pwa-training#0"],
-							["Codelabs - Adding a Service Worker", "https://developers.google.com/web/fundamentals/codelabs/offline"],
-							["Google Devs - Debugging Service Workers", "https://developers.google.com/web/fundamentals/codelabs/debugging-service-workers"],
-							["Caching best practices", "https://jakearchibald.com/2016/caching-best-practices/"],
-						]
-					},
-					skills: [
-						{
-							name: "Offline first",
-							description: {
-								text: "Learn how to make your web app working offline with an offline first approach.",
-								links: [
-									["Google Devs - The Offline Cookbook", "https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook"],
-									["Udacity - Offline Web Applications", "https://www.udacity.com/course/offline-web-applications--ud899"],
-									["Offline First", "http://offlinefirst.org/"],
-									["Google Devs - Offline UX Considerations", "https://developers.google.com/web/fundamentals/instant-and-offline/offline-ux"],
-									["Google Devs - Offline Storage for Progressive Web Apps", "https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/offline-for-pwa"],
-									["Codelabs - Offline quickstart", "https://codelabs.developers.google.com/codelabs/pwa-offline-quickstart/index.html?index=..%2F..dev-pwa-training#0"],
-									["Codelabs - Adding a Service Worker and Offline into your Web App", "https://codelabs.developers.google.com/codelabs/offline/index.html?index=..%2F..%2Findex#0"],
-									["Supercharged - Offline Links", "https://www.youtube.com/watch?v=7fnpsF9tMXc"],
-									["MDN - Online and offline events", "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorOnLine/Online_and_offline_events"],
-									["MDN - Making PWAs work offline", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers"]
-								]
-							}
-						},
-						{
-							name: "Push notifications",
-							description: {
-								text: "Learn how to add push notifications to your web app.",
-								links: [
-									["Google Devs - Adding Push Notifications to a Web App", "https://developers.google.com/web/fundamentals/codelabs/push-notifications/"],
-									["MDN - How to make PWAs re-engageable", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Re-engageable_Notifications_Push"],
-									["MDN - Notifications API", "https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API"],
-								]
-							}
-						},
-					]
-				},
-				{
-					name: "Web App manifest",
-					description: {
-						text: "Learn how to tell the browser about your web app and how it should behave when 'installed' by creating a web app manifest.",
-						links: [
-							["Google Devs - Web App Manifest", "https://developers.google.com/web/fundamentals/web-app-manifest/"],
-							["web.dev - Add a web app manifest", "https://web.dev/add-manifest/"],
-							["W3C - Web App Manifest", "https://www.w3.org/TR/appmanifest/"],
-							["MDN - How to make PWAs installable", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs"],
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
 						]
 					}
 				},
 				{
-					name: "Add to homescreen",
+					name: "기초통계학 및 실습",
 					description: {
-						text: "Learn how to make your web app installable.",
+						text: "기초통계학 수준에서 필요한 통계학의 기초개념을 이해하고 통계적 사고의 기초를 확립하고자 한다.",
 						links: [
-							["web.dev - Installable", "https://web.dev/installable"],
-							["Google Devs - App Install Banners", "https://developers.google.com/web/fundamentals/app-install-banners/"],
-							["MDN - Add to Home screen", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen"]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
 						]
 					}
 				},
 				{
-					name: "Pointer Events",
+					name: "이산수학",
 					description: {
-						text: "Learn how to handle inputs from pointing devices such as a mouse, pen/stylus or touch.",
+						text: "컴퓨터과학 및 디지털정보처리 분야의 수학적 기초가 되는 논리, 함수, 관계를 포함한 집합, 알고리즘, 수학적 귀납법 및 증명방법, 그래프, 트리, 부울 대수 등을 학습한다.",
 						links: [
-							["MDN - Pointer Events", "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"],
-							["Google Devs - Add Touch to Your Site", "https://developers.google.com/web/fundamentals/design-and-ux/input/touch"],
-							["Google Devs - Pointing the Way Forward", "https://developers.google.com/web/updates/2016/10/pointer-events"],
-							["Google Devs - Touch Action Options", "https://developers.google.com/web/updates/2016/10/touch-action"],
-							["W3C - Pointer Events", "https://www.w3.org/TR/pointerevents/"]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
+						]
+					}
+				},
+				{
+					name: "선형대수학",
+					description: {
+						text: "행렬과 연립방정식, 행렬식, 벡터공간, 선형변환, 고유값, 특이값 분해 등의 이해를 통해 전산 응용 수학의 기초지식을 습득한다.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
 						]
 					}
 				}
 			]
 		},
 		{
-			name: "Loading Performance",
+			name: "전공 42학점(15)이수",
 			skills: [
 				{
-					name: "App shell",
+					name: "컴퓨터시스템개론",
 					description: {
-						text: "Learn how to use an app shell to provide an instant and reliable experience to users on repeat visits",
+						text: "컴퓨터에 대한 기초 지식을 부여하는 과목으로서 하드웨어, 소프트웨어 및 Firmware의 기능을 정의하고 프로그램과 컴퓨터 상호간에 관계 및 문제의 해결을 컴퓨터로 처리하는 방법을 습득한다.",
 						links: [
-							["Google Devs - The App Shell Model", "https://developers.google.com/web/fundamentals/architecture/app-shell"],
-							["MDN - Architecture of an app", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/App_structure"]
-						]
-					}
-				},
-				{
-					name: "Render-Blocking Resources",
-					description: {
-						text: "Learn about render-blocking resources and why they are bad for the user-experience.",
-						links: [
-							["MDN - Render-blocking resources", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Loading#Render-blocking_resources"],
-							["Google Devs - Render-Blocking Resources", "https://developers.google.com/web/tools/lighthouse/audits/blocking-resources"]
-						]
-					},
-				},
-				{
-					name: "Compression",
-					description: {
-						text: "Learn how to minimize the overall download size by optimizing and compressing resources.",
-						links: [
-							["Google Devs - Optimizing Encoding and Transfer Size", "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer"],
-							["Google Devs - Replace Animated GIFs with Video", "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/"],
-							["Squoosh", "https://squoosh.app/"],
-							["Google Devs - Text Content", "https://developers.google.com/web/fundamentals/performance/get-started/textcontent-3"],
-							["Google Devs - Optimize Images", "https://developers.google.com/web/tools/lighthouse/audits/optimize-images"],
-							["web.dev - Reduce JavaScript execution time", "https://web.dev/bootup-time/"]
-						]
-					},
-				},
-				{
-					name: "Performance metrics",
-					description: {
-						text: "Learn why it is important to measure performance and which metrics you should prioritize.",
-						links: [
-							["Google Devs - User-centric Performance Metrics", "https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics"],
-							["Udacity - Website Performance Optimization", "https://www.udacity.com/course/website-performance-optimization--ud884"],
-							["Udacity - Browser Rendering Optimization", "https://www.udacity.com/course/browser-rendering-optimization--ud860"]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
 						]
 					},
 					skills: [
 						{
-							name: "Largest Contentful Paint",
+							name: "자료구조",
 							description: {
-								text: "Learn about Largest Contentful Paint and how it impacts the overall performance.",
+								text: "컴퓨터에서 처리하는 데이터 기본 개념과 이를 효율적으로 처리하기 위한 자료 구조인 Array, Stack, Queue 및 Linked List 등의 자료구조에 대하여 공부한다. 또는 이를 이용한 Tree Manipulation, 그래프 이론, 자료 정렬 및 검색과 Symbol Table 작성 방법에 대하여 학습한다.",
 								links: [
-									["web.dev - Largest Contentful Paint", "https://web.dev/lcp/"],
-									["web.dev - Lighthouse Largest Contentful Paint", "https://web.dev/lighthouse-largest-contentful-paint"],
-									["Medium - New Performance Metric: What is Largest Contentful Paint?", "https://medium.com/speedrank-app/new-performance-metric-what-is-largest-contentful-paint-dc784a497dd5"]
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
 								]
 							},
+							skills: [
+								{
+									name: "알고리즘(1)",
+									description: {
+										text: "일반적으로 널리 알려진 알고리즘 및 대표적인 응용분야에 적용되는 알고리즘 기능 및 처리 과정을 배운다. 알고리즘의 난해도를 분석하고 효율적인 알고리즘을 설계하는 기법을 익힌다.",
+										links: [
+											["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
+										]
+									},
+								},
+								
+								
+							]
 						},
-						{
-							name: "Total Blocking Time",
-							description: {
-								text: "Learn about Total Blocking Time and how it impacts the overall performance.",
-								links: [
-									["web.dev - First CPU Idle", "https://web.dev/first-cpu-idle"],
-									["Google Devs - Total Blocking Time", "https://web.dev/tbt"],
-								]
-							},
-						},
-						{
-							name: "Time to Interactive",
-							description: {
-								text: "Learn about Time to Interactive and how it impacts the overall performance.",
-								links: [
-									["web.dev - Total Blocking Time", "https://web.dev/lighthouse-total-blocking-time/"],
-									["Google Devs - Time to Interactive", "https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive"],
-								]
-							},
-						},
+						
+						
 					]
 				},
+				
 				{
-					name: "Lazy Loading",
+					name: "컴퓨터구조",
 					description: {
-						text: "Learn how to use lazy loading to lower the initial page payload and load time.",
+						text: "컴퓨터 관련 전공자들이 필수적으로 알고 있어야 할 컴퓨터 하드웨어의 동작 원리에 대하여 학습한다. 컴퓨터의 구성 요소인 중앙처리장치, 기억장치, 입출력장치의 동작 원리를 이해하고, 중앙처리장치가 명령어를 실행하는 과정에 대하여 자세히 배운다.",
 						links: [
-							["Google Devs - Lazy Loading Images and Video", "https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video"],
-							["Addy Osmani - Lazy Loading Images", "https://addyosmani.com/blog/lazy-loading/"],
-							["web.dev - Native lazy-loading for the web", "https://web.dev/native-lazy-loading/"]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"],
 						]
 					},
 					skills: [
 						{
-							name: "Dynamic Import",
+							name: "운영체제",
 							description: {
-								text: "Learn how to use dynamic import to lazy load javascript.",
+								text: "운영체제, 특히 다중 프로그래밍 시분할 시스템, 비동기 병행프로세서의 기본개념을 다룬다. 스케쥴링, 메모리 관리 정보의 고유 및 보호 등의 개념을 습득한다.",
 								links: [
-									["V8 - Dynamic import()", "https://v8.dev/features/dynamic-import"],
-									["JavaScript dynamic import() & export", "https://medium.com/@WebReflection/javascript-dynamic-import-export-b0e8775a59d4"],
-									["MDN - Dynamic Import", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Dynamic_Imports"],
-									["TC39 - proposal-dynamic-import", "https://github.com/tc39/proposal-dynamic-import"]
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
 								]
 							},
 						},
-						{
-							name: "Offscreen images",
-							description: {
-								text: "Learn why offscreen images increase the load time and how to avoid them by lazy loading images.",
-								links: [
-									["web.dev - Defer offscreen images", "https://web.dev/offscreen-images/"],
-									["Google Devs - Properly Size Images", "https://developers.google.com/web/tools/lighthouse/audits/oversized-images"],
-									["web.dev - Native lazy-loading for the web", "https://web.dev/native-lazy-loading"],
-									["Addy Osmani - Native image lazy-loading for the web!", "https://addyosmani.com/blog/lazy-loading/"],
-								]
-							},
-						},
+						
 					]
 				},
 				{
-					name: "Critical Request Chains",
+					name: "프로그래밍언어론",
 					description: {
-						text: "Learn about the critical request chains and how to find them in your web app.",
+						text: "이 과목은 컴퓨터 프로그래밍 언어에 적용되고 있는 기본 개념에 대해서 학습하고 최신 프로그래밍 언어가 가지고 있는 특징을 개괄한다. 이를 통하여 사용할 프로그램 언어를 선택할 수 있는 능력을 배양하고 프로그램 언어의 설계 능력을 갖추도록 한다.",
 						links: [
-							["Google Devs - Critical Request Chains", "https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains"],
-							["web.dev - Minimize critical requests depth", "https://web.dev/critical-request-chains"]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
 						]
 					},
+				
 				},
 				{
-					name: "Tree shaking",
+					name: "객체지향 설계(1)",
 					description: {
-						text: "Learn how to use tree shaking to eliminate dead code.",
+						text: "객체지향 개발 방법에 의하여 소프트웨어를 분석하고 설계하기 위한 기본 개념의 이해 및 기법들을 대하여 학습하고, 프로젝트를 통한 문제 분석 및 설계 과정을 진행한다.",
 						links: [
-							["Google Devs - Reduce JavaScript Payloads", "https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking"],
-							["How to Clean Up Your JavaScript", "https://www.keycdn.com/blog/tree-shaking"],
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
 						]
 					},
+					skills: [
+						{
+							name: "소프트웨어공학(1)",
+							description: {
+								text: "소프트웨어 공학에 대한 기본적인 개념의 이해와 소프트웨어 개발 과정에서 품질을 향상시키기 위해 요구되는 공학적 활동에 대하여 학습하고, 주어진 문제의 소프트웨어 개발을 위한 프로젝트를 진행한다.",
+								links: [
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
+								]
+							},
+						},
+					
+					]
 				},
 				{
-					name: "Codesplitting",
+					name: "산학프로젝트(2)",
 					description: {
-						text: "Learn about codesplitting an how dividing your code into multiple chunks makes your web app faster.",
+						text: "산업체(가족회사)의 멘토 또는 취업 선배(멘토)와의 연계를 통해 산업체가 수행하고 있는 프로젝트를 이해하고, 산업체에서 프로젝트 수행에 따른 문제점과 이에 대한 해결 방안을 멘토와 함께 해결함으로써, 현장의 실전을 이해한다.",
 						links: [
-							["Google Devs - Reduce JavaScript Payloads", "https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting"],
-							["All you need to know about JavaScript code splitting", "https://www.creativebloq.com/how-to/all-you-need-to-know-about-javascript-code-splitting"]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
 						]
 					},
+					skills: [
+						{
+							name: "캡스톤디자인Ⅰ(2)",
+							description: {
+								text: "컴퓨터과학의 기본 이론을 바탕으로 팀을 구성하여 주제를 선정하고, 프로젝트 진행 방법을 계획하여, 최종 결과물을 도출하기까지의 프로세스를 체계적으로 준수하면서 팀 기반의 프로젝트 수행을 경험한다.",
+								links: [
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
+								]
+							},
+							skills: [
+								{
+									name: "캡스톤디자인Ⅱ(2)",
+									description: {
+										text: "컴퓨터과학의 기본 이론을 바탕으로 팀을 구성하여 주제를 선정하고, 프로젝트 진행 방법을 계획하여, 최종 결과물을 도출하기까지의 프로세스를 체계적으로 준수하면서 팀 기반의 프로젝트 수행을 경험한다.",
+										links: [
+											["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
+										]
+									},
+								},
+							
+							]
+						},
+					
+					]
 				},
 				{
-					name: "PRPL Pattern",
+					name: "미래설계탐색",
 					description: {
-						text: "Learn how to use the PRPL pattern to make web apps more performant.",
+						text: "스트롱 직업흥미검사를 온라인으로 실시하고, 해석 워크샵을 그 결과를 알게함으로써 자신의 직업적 흥미 경향성을 알아보고, 지속적인 상담 및 지도를 통해 자기를 이해하고 개인 가치관을 확립한다.",
 						links: [
-							["Google Devs - The PRPL Pattern", "https://developers.google.com/web/fundamentals/performance/prpl-pattern/"],
-							["Google Devs - JavaScript Start-up Optimization", "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/javascript-startup-optimization"],
-							["Ben Schwarz - Real world performance", "https://building.calibreapp.com/beyond-the-bubble-real-world-performance-9c991dcd5342?gi=76804aa8f46e"],
-							["The Cost of Javascript", "https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4"],
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
 						]
 					},
+					skills: [
+						{
+							name: "미래설계준비",
+							description: {
+								text: "스트롱 직업흥미검사를 온라인으로 실시하고, 해석 워크샵을 그 결과를 알게함으로써 자신의 직업적 흥미 경향성을 알아보고, 지속적인 상담 및 지도를 통해 자기를 이해하고 개인 가치관을 확립한다.",
+								links: [
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
+								]
+							},
+							skills: [
+								{
+									name: "미래설계구현",
+									description: {
+										text: "스트롱 직업흥미검사를 온라인으로 실시하고, 해석 워크샵을 그 결과를 알게함으로써 자신의 직업적 흥미 경향성을 알아보고, 지속적인 상담 및 지도를 통해 자기를 이해하고 개인 가치관을 확립한다.",
+										links: [
+											["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
+										]
+									},
+									skills: [
+										{
+											name: "창업탐색",
+											description: {
+												text: "4차 산업 혁명과 관련된 기술 동향을 파악하고 창업 과정에 필요한 기본 지식을 습득한다. 초청 강연과 창업에 관한 다양한 활동를 통하여 전공 역량을 강화하고 도전 의식을 함양한다.",
+												links: [
+													["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
+												]
+											},
+											skills: [
+												{
+													name: "창업기획",
+													description: {
+														text: "4차 산업 혁명과 관련된 기술 동향을 파악하고 창업에 관련된 전문 역량을 키운다. 초청강연과 창업에 관한 다양한 활동를 통하여 전공 역량을 강화하고 도전 의식을 함양한다.",
+														links: [
+															["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
+														]
+													},
+													skills: [
+														{
+															name: "창업설계",
+															description: {
+																text: "4차 산업 혁명과 관련된 기술 동향을 파악하고 창업에 관련된 전문 역량을 키운다. 초청강연과 창업에 관한 다양한 활동를 통하여 전공 역량을 강화하고 도전 의식을 함양한다.",
+																links: [
+																	["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
+																]
+															},
+														},
+														
+														
+													]
+												},
+												
+												
+											]
+										},
+										
+										
+									]
+								},
+								
+								
+							]
+						},
+						
+						
+					]
 				},
 				{
-					name: "Resource Prioritization",
+					name: "오픈소스기초프로젝트(2)",
 					description: {
-						text: "Learn about resource prioritization and how to inform the browser about the importance of a resource.",
+						text: "C, C++언어를 이용하여 실생활에 적용 가능한 소프트웨어를 개발하고, 이러한 개발과정에서 프로그램의 역할과 프로그램 코드의 체계적인 개발에 대한 중요성을 이해한다.",
 						links: [
-							["Google Devs - Resource Prioritization", "https://developers.google.com/web/fundamentals/performance/resource-prioritization"],
-							["Eliminating Roundtrips with Preconnect", "https://www.igvita.com/2015/08/17/eliminating-roundtrips-with-preconnect/"],
-							["Addy Osmani - Preload, Prefetch And Priorities in Chrome", "https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf"],
-							["web.dev - Preconnect to required origins", "https://web.dev/uses-rel-preconnect/"],
-							["Preload, prefetch and other <link> tags", "https://3perf.com/blog/link-rels/"]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
 						]
 					},
+					skills: [
+						{
+							name: "오픈소스개발프로젝트(2)",
+							description: {
+								text: "오픈 소스 프로그래밍 언어인 자바를 이용하여 실생활에 적용 가능한 소프트웨어를 개발하고, 이러한 개발과정에서 프로그램의 역할과 프로그램 코드의 체계적인 개발에 대한 중요성을 이해한다.",
+								links: [
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
+								]
+							},
+							skills: [
+								{
+									name: "오픈소스전문프로젝트(2)",
+									description: {
+										text: "소프트웨어 개발이 단순한 코딩 작업만이 아니라, 분석 및 설계 과정을 거쳐 개발되어야 함을 이해하고, 오픈 소스 툴을 사용하여 웹과 앱에서 실행되는 어플리케이션을 개발하는 기술을 학습한다.",
+										links: [
+											["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
+										]
+									},
+								
+								},
+							
+							]
+						},
+					
+					]
+					
 				},
-				{
-					name: "Caching",
-					description: {
-						text: "Learn about caching and how it can be uses to make web apps load faster.",
-						links: [
-							["Google Devs - HTTP Caching", "https://developers.google.com/web/fundamentals/performance/get-started/httpcaching-6"],
-							["MDN - HTTP caching", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching"]
-						]
-					},
-				},
+			
 			]
 		},
 		{
-			name: "Rendering Performance",
+			name: "전공 18학점 이상 이수",
 			skills: [
 				{
-					name: "Rendering",
+					name: "창의공학설계(2)",
 					description: {
-						text: "Learn about rendering, how a page is rendered and why it is important to keep your web app interactive and smooth running.",
+						text: "여러 가지 다양한 문제의 해결 과정을 통해서 참여 학생의 창의적 능력을 키우며, 문제의 해결에 대한 능력 향상과 함께 팀활동을 체험한다.",
 						links: [
-							["Google Devs - Constructing the Object Model", "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model"],
-							["Google Devs - Rendering Performance", "https://developers.google.com/web/fundamentals/performance/rendering"],
-							["Google Devs - Render-tree Construction", "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction"],
-							["Google Devs - Render Blocking CSS", "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css"]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
 						]
 					},
 				},
 				{
-					name: "Event loop",
+					name: "오픈소스소프트웨어이해와실습",
 					description: {
-						text: "Learn about the event loop and how Javascript simulate like it’s running our commands in a multi-thread environment.",
+						text: "T분야에서 활발하게 사용되고 있는 오픈소스소프트웨어의 종류, 올바른 활용방법, 개발환경의 구성, 다양한 응용 등에 대해 학습하여 오픈소스소프트웨어에 대한 이해를 높이고 기본적인 활용방법을 배운다.",
 						links: [
-							["Youtube - Jake Archibald: In The Loop", "https://youtu.be/cCOL7MC4Pl0"],
-							["Understanding JavaScript", "https://medium.com/@muratcatal/understanding-javascript-heap-stack-event-loops-and-callback-queue-6fdec3cfe32e"],
-							["JavaScript Event Loop Explained", "https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4"],
-							["Youtube - What the heck is the event loop anyway?", "https://www.youtube.com/watch?v=8aGhZQkoFbQ"],
-							["The JavaScript Event Loop", "https://flaviocopes.com/javascript-event-loop/"],
-							["dev.to - JavaScript Visualized: Event Loop", "https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif"],
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
+						]
+					},
+				},
+				{
+					name: "객체지향 프로그래밍(1)",
+					description: {
+						text: "객체지향 개념 및 프로그래밍 기법에 대한 이론적 학습과 실습을 통하여 객체지향 프로그램을 개발하고, 실제 응용 프로그래밍에 활용할 수 있는 능력을 함양한다.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
 						]
 					},
 					skills: [
 						{
-							name: "Microtask",
+							name: "시스템프로그래밍(1)",
 							description: {
-								text: "Learn about microtasks and the microtask queue.",
+								text: "컴퓨터 시스템의 효율적인 사용이 요구되는 하드웨어와 소프트웨어 구조의 이해, Assembly Language 이해를 통해 Assembler, Loader 등의 설계방법 도입",
 								links: [
-									["Tasks, microtasks, queues and schedules", "https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/"],
-									["MDN - Using microtasks in JavaScript", "https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide"],
-									["javascript.info - Microtasks and macrotasks", "https://javascript.info/event-loop"],
-									["javascript.info - Microtasks", "https://javascript.info/microtask-queue"],
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
 								]
 							},
+							skills: [
+								{
+									name: "인간상호작용 프로그래밍(1)",
+									description: {
+										text: "인간상호작용 시스템 개발 역량을 강화할 수 있도록 하는 것을 목표로, 윈도우 프로그래밍 개발을 위한 C#학습, 사용자 경험, 적용가능 디자인 패턴에 대해서 학습한다.",
+										links: [
+											["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]
+										]
+									},
+									skills: [
+										{
+											name: "펌웨어 프로그래밍(1)",
+											description: {
+												text: "마이크로컴퓨터 시스템의 하드웨어 구성 요소를 이해하고, 마이크로프로세서 실습 장비를 사용하여 하드웨어를 제어하기 위한 시스템 시작 코드 해석, 인터럽트 및 타이머 제어 프로그래밍, 입출력 디바이스 제어를 위한 펌웨어 프로그래밍 기술을 습득한다.",
+												links: [
+													["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]	]
+											},
+										},
+										
+									]
+								},
+								
+							]
 						},
+						
+					]
+				},
+				
+				{
+					name: "오픈소스 웹소프트웨어(1)",
+					description: {
+						text: "오픈 소스 툴을 사용하여 웹을 개발하는 기술을 학습한다.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]	]
+					},
+				},
+				{
+					name: "컴파일러(1)",
+					description: {
+						text: "최신 컴파일러를 중심으로 어휘분석, 파싱 및 코드생성 등 일련의 컴파일 과정을 학습한다. 특히 컴퓨터 프로그래밍 언어가 가지고 있는 다양한 특징들을 컴파일 단계에서 어떻게 구현되는 가를 학습한다.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]	]
+					},
+				},
+				{
+					name: "컴퓨터네트워크",
+					description: {
+						text: "네트워크의 기본 개념과 네트워크의 구조, TCP/IP 프로토콜 구조, 네트워크, 전송 및 응용 계층 프로토콜들에 관련한 기술 및 원리에 대해 인터넷을 중심으로 학습한다.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]	]
+					},
+				},
+				{
+					name: "확률및통계",
+					description: {
+						text: "통계적 개념과 통계적 사고방법의 도입을 통해 전자계산기 시스템 분야에서의 응용 능력 배양.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]	]
+					},
+				},
+				{
+					name: "데이터베이스시스템(1)",
+					description: {
+						text: "이 과목에서는 데이터베이스의 기본 개념과 개체-관계(E-R) 다이어그램, 관계형 데이터 모델 및 SQL 문의 사용, 데이터베이스 설계, 데이터베이스 보안 등은 물론 DBMS 구조와 그 기능을 공부한다. 아울러 실제 응용에서 시스템 개발과 웹의 연동 방법 등을 학습한다.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]	]
+					},
+					skills: [
 						{
-							name: "Stack",
+							name: "빅데이터시스템설계(1)",
 							description: {
-								text: "Learn about the stack and how to investigate the staack trace when debugging.",
+								text: "빅데이터시스템에서 데이터 전처리와 플랫폼, 그리고 정형 및 비정형의 빅데이터 수집, 저장, 분석과 탐색, 공유, 전파, 시각화, 질의, 갱신 등의 방법에 대한 이론과 실무를 학습한다. 또한 빅데이터시스템을 위한 동시성 제어와 회복기법, 보안정책을 학습한다.",
 								links: [
-									["Javascript Stack Trade - Using it to debug", "https://www.scalyr.com/blog/javascript-stack-trace-understanding-it-and-using-it-to-debug/"],
-									["MDN - console.trace()", "https://developer.mozilla.org/en-US/docs/Web/API/Console/trace"],
-									["V8 - Stack trace API", "https://v8.dev/docs/stack-trace-api"],
-									["Confused about Stack and Heap?", "https://medium.com/fhinkel/confused-about-stack-and-heap-2cf3e6adb771"],
-								]
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]	]
 							},
 						},
-						{
-							name: "Heap",
-							description: {
-								text: "Learn about the heap and how to investigate the heap snapshots when debugging.",
-								links: [
-									["Google Devs - Memory Problems", "https://developers.google.com/web/tools/chrome-devtools/memory-problems/"],
-									["Google Devs - Memory Terminology", "https://developers.google.com/web/tools/chrome-devtools/memory-problems/memory-101"],
-									["Google Devs - How to Record Heap Snapshots", "https://developers.google.com/web/tools/chrome-devtools/memory-problems/heap-snapshots"],
-									["Confused about Stack and Heap?", "https://medium.com/fhinkel/confused-about-stack-and-heap-2cf3e6adb771"],
-									["Google Devs - How to Use the Allocation Profiler Tool", "https://developers.google.com/web/tools/chrome-devtools/memory-problems/allocation-profiler"],
-								]
-							},
-						},
+						
 					]
 				},
 				{
-					name: "RAIL Model",
+					name: "컴퓨터그래픽스(1)",
 					description: {
-						text: "Learn how to use the RAIL model to ensure a good user experience.",
+						text: "컴퓨터 그래픽스 분야를 구성하는 렌더링, 애니메이션, 그리고 기하모델링 등의 기본 주제에 관한 이론과 실제를 다루며 대표적인 실시간 3차원 그래픽스 프로그래밍 툴을 사용하여 그래픽스 프로그래밍 기법을 익힌다.",
 						links: [
-							["Google Devs - RAIL", "https://developers.google.com/web/fundamentals/performance/rail"],
-							["Google Devs - Why Performance Matters", "https://developers.google.com/web/fundamentals/performance/why-performance-matters/"],
-							["Google Devs - Get Started With Analyzing", "https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/"],
-							["Google Devs - Animations and Performance", "https://developers.google.com/web/fundamentals/design-and-ux/animations/animations-and-performance"],
-							["Google Devs - CSS Versus JavaScript Animations", "https://developers.google.com/web/fundamentals/design-and-ux/animations/css-vs-javascript"],
-							["Google Devs - Choosing the Right Easing", "https://developers.google.com/web/fundamentals/design-and-ux/animations/choosing-the-right-easing"],
-							["Google Devs - Animating Modal Views", "https://developers.google.com/web/fundamentals/design-and-ux/animations/animating-modal-views"],
-							["MDN - CSS and JavaScript animation performance", "https://developer.mozilla.org/en-US/docs/Web/Performance/CSS_JavaScript_animation_performance"],
-							["MDN - Performance fundamentals", "https://developer.mozilla.org/en-US/docs/Web/Performance/Fundamentals"],
-							["Youtube - Fast By Default", "https://www.youtube.com/watch?v=_srJ7eHS3IM"],
-						]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]		]
 					},
 					skills: [
 						{
-							name: "requestAnimationFrame",
+							name: "인공지능",
 							description: {
-								text: "Learn how to use the requestAnimationFrame API to create butter-smooth animations.",
+								text: "인공지능의 성공적인 적용분야 및 목표를 살펴보고, 대표적인 지능적인 문제 해결 기법들, 지식표현 방법 및 추론, 지식기반 시스템, 자연어처리, 컴퓨터 비전, 지능로봇 등에 대해서 학습한다.",
 								links: [
-									["Google Devs - Optimize JavaScript Execution", "https://developers.google.com/web/fundamentals/performance/rendering/optimize-javascript-execution"],
-									["MDN - requestAnimationFrame()", "https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame"]
-								]
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]	]
+							},
+							skills: [
+								{
+									name: "영상처리",
+									description: {
+										text: "디지털 영상처리에 대한 기본적인 지식과 함께 관련 분야에의 응용에 대한 기술을 심화한다. 그리고 최근의 영상처리이론과 연구결과를 접함으로써 선진 기술들에 대한 이해의 폭을 넓힌다.",
+										links: [
+											["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]		]
+									},
+								},
+								
+							]
+						},
+						
+					]
+				},
+				
+				{
+					name: "임베디드시스템(1)",
+					description: {
+						text: "ARM기반 임베디드 시스템의 구조 및 시스템 소프트웨어 동작에 대해 학습하고, 리눅스 포팅, 부트로더, 디바이스 드라이버 작성 등의 실습 프로젝트를 수행한다.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]	]
+					},
+					skills: [
+						{
+							name: "클라우드컴퓨팅",
+							description: {
+								text: "본 수업은 클라우드에 대한 상세한 개념과 IaaS, PaaS, SaaS, BPaaS과 같은 다양한 클라우드 서비스 모델에 대해 다룬다. 학생들은 Amazon Elastic Cloud, Microsoft’s Azure, Google App Engine을 활용한 프로젝트를 통해서 실질적인 경험을 얻을 수 있다.",
+								links: [
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]		]
 							},
 						},
+						
+					]
+				},
+			
+				{
+					name: "창업산학세미나Ⅰ",
+					description: {
+						text: "산업체와 학교의 교류를 통한 기업가정신, 최신 IT기술 동향 및 산업체의 경영철학과 경영방법을 습득한다.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]	]
+					},
+					skills: [
 						{
-							name: "requestIdleCallback",
+							name: "창업산학세미나Ⅱ",
 							description: {
-								text: "Learn how to use the requestIdleCallback to defer heavy tasks.",
+								text: "산업체와 학교의 교류를 통한 최신 IT기술 동향 및 산업체의 경영철학과 경영방법을 습득한다.",
 								links: [
-									["MDN - Background Tasks API", "https://developer.mozilla.org/en-US/docs/Web/API/Background_Tasks_API"],
-									["Google Dev - requestIdleCallback", "https://developers.google.com/web/updates/2015/08/using-requestidlecallback?hl=en"],
-									["MDN - requestIdleCallback()", "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback"]
-								]
-							}
-						}
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]		]
+							},
+						},
+						
 					]
 				},
 				{
-					name: "Critical Rendering Path",
+					name: "정보보호",
 					description: {
-						text: "Learn about the critical rendering path and how to identify it.",
+						text: "정보보호 기초 이론 학습과 네트워크 보안 및 시스템 보안의 기본 개념을 이해하고 안전한 정보 시스템 구축 및 안전한 네트워크 서비스를 제공할 수 있는 방법을 습득한다..",
 						links: [
-							["Google Devs - Critical Rendering Path", "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/"],
-							["MDN - Critical Rendering Path", "https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path"],
-							["Understanding the critical rendering path", "https://medium.com/@luisvieira_gmr/understanding-the-critical-rendering-path-rendering-pages-in-1-second-735c6e45b47a"]
-						]
-					},
-				},
-				{
-					name: "The Pixel Pipeline",
-					description: {
-						text: "Learn about the five key points in the pixels-to-screen pipeline.",
-						links: [
-							["Google Devs - The pixel pipeline", "https://developers.google.com/web/fundamentals/performance/rendering#the_pixel_pipeline"],
-							["Pixels are expensive", "https://aerotwist.com/blog/pixels-are-expensive/"],
-							["Google Devs - The Applied Science of Runtime Performance", "https://www.youtube.com/watch?v=RCFQu0hK6bU"],
-							["CSS Triggers", "https://csstriggers.com/"]
-						]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]	]
 					},
 					skills: [
 						{
-							name: "Style calculations",
+							name: "정보검색",
 							description: {
-								text: "Learn how to optimize your CSS to avoid heavy style calculations.",
+								text: "정보 표현 및 저장 방법, 문헌 질의와 매칭과정, 텍스트 분석, 정보검색 검색효과 측정, 효과성 향상기법 등을 포함한 대량 정보의 조직적인 저장, 관리, 검색, 마이닝 기법에 대한 이론과 방법을 학습한다.",
 								links: [
-									["Google Devs - Style Calculations", "https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations"],
-								]
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]	]
 							},
 						},
-						{
-							name: "Transforms",
-							description: {
-								text: "Learn about transforms and how it is possible to avoid both layout and paint.",
-								links: [
-									["Google Devs - Use transform and opacity for animations", "https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count#use_transform_and_opacity_changes_for_animations"],
-									["Achieving 60 FPS Animations with CSS3", "https://medium.com/outsystems-experts/how-to-achieve-60-fps-animations-with-css3-db7b98610108"],
-									["HTML5 Rocks - High Performance Animations", "https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/"],
-								]
-							},
-						},
-						{
-							name: "Paint areas",
-							description: {
-								text: "Learn about paint areas and how it is possible to reduce them.",
-								links: [
-									["Google Devs - Paint Areas", "https://developers.google.com/web/fundamentals/performance/rendering/simplify-paint-complexity-and-reduce-paint-areas"],
-									["CSS Tricks - Browser painting", "https://css-tricks.com/browser-painting-and-considerations-for-web-performance/"],
-									["HTML5 Rocks - Avoiding Unnecessary Paints", "https://www.html5rocks.com/en/tutorials/speed/unnecessary-paints/"]
-								]
-							},
-						},
-						{
-							name: "Layout Trashing",
-							description: {
-								text: "Learn about layout trashing and how to avoid it.",
-								links: [
-									["Google Devs - Layout Thrashing", "https://developers.google.com/web/fundamentals/performance/rendering/avoid-large-complex-layouts-and-layout-thrashing"],
-									["Beware JavaScript Layout Thrashing!", "https://blog.idrsolutions.com/2014/08/beware-javascript-layout-thrashing/"],
-									["Layout thrashing cheatsheet", "https://devhints.io/layout-thrashing"]
-								]
-							},
-						},
-						{
-							name: "Layers",
-							description: {
-								text: "Learn about layers and how to promote an element to another layer.",
-								links: [
-									["Google Devs - Manage Layer Count", "https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count"],
-									["HTML5 Rocks - Accelerated Rendering in Chrome", "https://www.html5rocks.com/en/tutorials/speed/layers/"],
-									["Layers and how to force them", "https://dassur.ma/things/forcing-layers/"]
-								]
-							},
-						},
-						{
-							name: "Debounce",
-							description: {
-								text: "Learn how to debounce computationally expensive code to avoid blocking the UI.",
-								links: [
-									["Google Devs - Debounce Your Input Handlers", "https://developers.google.com/web/fundamentals/performance/rendering/debounce-your-input-handlers"],
-									["What is Debouncing?", "https://medium.com/@jamischarles/what-is-debouncing-2505c0648ff1"],
-									["Level Up - Debounce in JavaScript", "https://levelup.gitconnected.com/debounce-in-javascript-improve-your-applications-performance-5b01855e086"]
-								]
-							},
-						}
-					],
+						
+					]
 				},
+			
 				{
-					name: "CSS Containment",
+					name: "비정형데이터처리",
 					description: {
-						text: "Learn how to use CSS containment to improve the performance of your web app.",
+						text: "비정형 데이터를 정련 과정을 통해 정형 데이터로 변환하고 분류, 군집화, 회귀분석, 이상탐지 등의 기법으로 유의미한 정보를 추출하는 것을 학습한다.",
 						links: [
-							["Google Devs - CSS Containment", "https://developers.google.com/web/updates/2016/06/css-containment"],
-							["W3C - CSS Containment Module", "https://www.w3.org/TR/css-contain-1/"],
-							["An introduction to CSS Containment", "https://blogs.igalia.com/mrego/2019/01/11/an-introduction-to-css-containment/"],
-							["MDN - Contain", "https://developer.mozilla.org/en-US/docs/Web/CSS/contain"],
-							["CSS Tricks - CSS containment", "https://css-tricks.com/css-containment/"],
-						]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]	]
 					},
+					skills: [
+						{
+							name: "데이터분석시각화",
+							description: {
+								text: "이 강좌에서 수집된 데이터를 보다 쉽게 이해할 수 있도록 시각화는 대표적인 방법을 공부한다. 공부할 시각화 기법으로는 시간 시각화, 연계 시각화, 비교시각화, 분포시각화, 공간시각화 등이 있다. 머신 러닝 기법을 이용한 데이터 분석 결과를 보다 쉽게 볼 수 있는 시각화 기법도 소개한다.",
+								links: [
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]		]
+							},
+						},
+						
+					]
 				},
-				{
-					name: "Web Workers",
-					description: {
-						text: "Learn how to use web workers to run a script operation in a background thread separate from the main execution thread.",
-						links: [
-							["MDN - Web Workers API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API"],
-							["HTML5 Rocks - The Basics of Web Workers", "https://www.html5rocks.com/en/tutorials/workers/basics/"],
-							["When should you be using Web Workers?", "https://dassur.ma/things/when-workers/"]
-						]
-					}
-				}
+			
 			],
 		},
 		{
-			name: "Security",
+			name: "일반선택",
 			skills: [
 				{
-					name: "HTTPS",
+					name: "인턴십Ⅰ",
 					description: {
-						text: "Learn about HTTPS and why a website should always be protected with HTTPS.",
+						text: "학교에서 습득한 전공기술을 산업현장 기술과의 접목을 통하여 현장적응 능력을 배양하고 대학과 지역 산업체간의 유기적인 산학협동 관계를 정립한다.",
 						links: [
-							["Google Devs - Why HTTPS Matters", "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https"],
-							["Google Devs - Enabling HTTPS on Your Servers", "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https"],
-							["Google Devs - Mixed Content", "https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content"],
-							["Youtube - Stories from the field", "https://www.youtube.com/watch?v=GoXgl9r0Kjk"]
-						]
-					}
-				},
-				{
-					name: "Browser Sandbox",
-					description: {
-						text: "Learn about the sandbox security mechanism and how it restricts the execution environment.",
-						links: [
-							["web.dev - Browser sandbox", "https://web.dev/browser-sandbox/"],
-							["Wikipedia - Sandbox (computer security)", "https://en.wikipedia.org/wiki/Sandbox_(computer_security)"],
-							["Howtogeek - Sandboxes Explained", "https://www.howtogeek.com/169139/sandboxes-explained-how-theyre-already-protecting-you-and-how-to-sandbox-any-program/"]
-						]
-					},
-				},
-				{
-					name: "OWASP",
-					description: {
-						text: "Learn about the OWASP organization and how they help with web application security.",
-						links: [
-							["Wikipedia - OWASP", "https://en.wikipedia.org/wiki/OWASP"],
-							["OWASP - About", "https://www.owasp.org/index.php/About_The_Open_Web_Application_Security_Project"],
-							["OWASP - OWASP Top 10", "https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf"],
-							["OWASP - Cheatsheets", "https://cheatsheetseries.owasp.org/"],
-							["Youtube - OWASP", "https://www.youtube.com/user/OWASPGLOBAL"],
-							["OWASP Top 10 Security Risks", "https://blog.sucuri.net/2018/10/owasp-top-10-security-risks-part-i.html"],
-							["Wikipedia - Web application security", "https://en.wikipedia.org/wiki/Web_application_security"],
-						]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]		]
 					},
 					skills: [
 						{
-							name: "Cross-Site Scripting",
+							name: "인턴십Ⅱ",
 							description: {
-								text: "Learn about cross-site scripting and how it is possible mitigate these kind of attacks.",
+								text: "학교에서 습득한 전공기술을 산업현장 기술과의 접목을 통하여 현장적응 능력을 배양하고 대학과 지역 산업체간의 유기적인 산학협동 관계를 정립한다.",
 								links: [
-									["MDN - Cross-site scripting", "https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting"],
-									["OWASP - Cross-site Scripting (XSS)", "https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)"],
-									["OWASP - XSS Cheatsheet", "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"],
-									["Excess XSS", "https://excess-xss.com/"]
-								]
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]		]
 							},
+							skills: [
+								{
+									name: "인턴십Ⅲ",
+									description: {
+										text: "학교에서 습득한 전공기술을 산업현장 기술과의 접목을 통하여 현장적응 능력을 배양하고 대학과 지역 산업체간의 유기적인 산학협동 관계를 정립한다.",
+										links: [
+											["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]			]
+									},
+									skills: [
+										{
+											name: "인턴십Ⅳ",
+											description: {
+												text: "학교에서 습득한 전공기술을 산업현장 기술과의 접목을 통하여 현장적응 능력을 배양하고 대학과 지역 산업체간의 유기적인 산학협동 관계를 정립한다.",
+												links: [
+													["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]				]
+											},
+										},
+										
+									]
+								},
+								
+							]
 						},
-						{
-							name: "Clickjacking",
-							description: {
-								text: "Learn about clickjacking and how it is possible to mitigate these kind of attacks.",
-								links: [
-									["OWASP - Clickjacking", "https://www.owasp.org/index.php/Clickjacking"],
-									["Wikipedia - Clickjacking", "https://en.wikipedia.org/wiki/Clickjacking"],
-									["web.dev - Same-origin policy", "https://web.dev/same-origin-policy/#how-to-prevent-clickjacking"],
-									["OWASP - Clickjacking Cheatsheet", "https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html"]
-								]
-							},
-						},
+
+						
 					]
 				},
 				{
-					name: "Content Security Policy",
+					name: "실무프로젝트Ⅰ",
 					description: {
-						text: "Learn about content security policy and how it can help to detect and mitigate certain types of attacks.",
+						text: "설계 프로젝트 수행 경험을 바탕으로 보다 실질적이고 실무 중심적 과제 수행의 관점에서 학습자 주도적으로 학습을 진행한다. 이를 위하여 적용 현장의 특성 분석을 바탕으로 IT 최신 기술의 사용 능력과 실무 현장에서의 요구사항분석, 다양한 소프트웨어 설게 방법론의 활용과 프로젝트 관리 능력 배양의 관점에서 과제를 수행한다.",
 						links: [
-							["MDN - Content Security Policy (CSP)", "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP"],
-							["Google Devs - CSP", "https://developers.google.com/web/fundamentals/security/csp"]
-						]
-					}
-				},
-			]
-		},
-		{
-			name: "Audits",
-			description: {
-				text: "Learn how to do an audit to check the health of your web app.",
-				links: [
-					["Google Devs - Auditing Performance", "https://developers.google.com/web/fundamentals/performance/audit"],
-					["web.dev - Performance audits", "https://web.dev/lighthouse-performance"],
-					["Google Devs - Prework", "https://developers.google.com/web/fundamentals/performance/audit/prework"],
-					["Google Devs - Check site security", "https://developers.google.com/web/fundamentals/performance/audit/security"],
-					["Google Devs - Use tools to measure performance", "https://developers.google.com/web/fundamentals/performance/audit/tools"],
-					["Google Devs - Find and Fix Web App Performance Issues", "https://developers.google.com/web/fundamentals/codelabs/web-perf/"],
-					["web.dev - Measure", "https://web.dev/measure/"],
-					["Google Devs - How To Think About Speed Tools", "https://developers.google.com/web/fundamentals/performance/speed-tools/"],
-					["web.dev - PWA audits", "https://web.dev/lighthouse-pwa"],
-					["web.dev - Best Practices audits", "https://web.dev/lighthouse-best-practices"]
-				]
-			},
-			skills: [
-				{
-					name: "Performance budgets",
-					description: {
-						text: "Learn about performance budgets and how you can create one for your web app.",
-						links: [
-							["web.dev - Performance Budgets", "https://web.dev/performance-budgets-101"],
-							["Google Devs - Performance Budget", "https://developers.google.com/web/tools/lighthouse/audits/budgets"],
-							["Addy Osmani - Start Performance Budgeting", "https://addyosmani.com/blog/performance-budgets/"]
-						]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]		]
 					},
+					skills: [
+						{
+							name: "실무프로젝트Ⅱ",
+							description: {
+								text: "설계 프로젝트 수행 경험을 바탕으로 보다 실질적이고 실무 중심적 과제 수행의 관점에서 학습자 주도적으로 학습을 진행한다. 이를 위하여 적용 현장의 특성 분석을 바탕으로 IT 최신 기술의 사용 능력과 실무 현장에서의 요구사항분석, 다양한 소프트웨어 설게 방법론의 활용과 프로젝트 관리 능력 배양의 관점에서 과제를 수행한다.",
+								links: [
+									["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]			]
+							},
+						},
+						
+					]
 				},
+				
 				{
-					name: "Lighthouse",
+					name: "교직 및 타 학과 전공과정",
 					description: {
-						text: "Learn about lighthouse and how it can be used to audit your web app.",
+						text: "컴퓨터 교과지도에 필요한 능력을 배양하고 컴퓨터와 그 응용에 관하여 지식을 습득하게 하며 기초적인 프로그래밍 실무를 익힐 수 있는 교재를 연구한다.",
 						links: [
-							["Google Devs - Lighthouse", "https://developers.google.com/web/tools/lighthouse/"],
-							["Youtube - Staying off the Rocks", "https://www.youtube.com/watch?v=NoRYn6gOtVo"],
-							["web.dev - Measure", "https://web.dev/measure"]
-						]
-					},
-				},
-				{
-					name: "Chrome DevTools",
-					description: {
-						text: "Learn about the Chrome DevTools and how it can be used to audit your web app.",
-						links: [
-							["Google Devs - Chrome DevTools", "https://developers.google.com/web/tools/chrome-devtools"],
-							["Google Devs - Inspect animations", "https://developers.google.com/web/tools/chrome-devtools/inspect-styles/animations"],
-							["Investigate animation performance with DevTools", "https://calibreapp.com/blog/investigate-animation-performance-with-devtools/"],
-						]
+							["CBNU - Software", "https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887601"]		]
 					},
 				}
 			]

@@ -1,118 +1,127 @@
 export const webcomponentsCollection = {
-	name: "Web Components",
+	name: "General",
 	areas: [
 		{
+			name: "개신기초교양",
 			skills: [
 				{
-					name: "Custom Elements",
+					name: "글쓰기와 발표",
+					description: {
+						text: "본 교과목은 대학생들이 교양인으로서 갖추어야 할 글쓰기와 말하기 능력을 기르기 데 중점을 두고 있다.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/"],
+						]
+					}
+				},
+
+				{
+					name: "Action English",
 					description: {
 						text: "Learn how to create new HTML tags with Custom Elements.",
 						links: [
-							["Google Devs - Custom Elements", "https://developers.google.com/web/fundamentals/web-components/customelements"],
-							["MDN - Using Custom Elements", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements"],
-							["CSS Tricks - Creating a Custom Element from Scratch", "https://css-tricks.com/creating-a-custom-element-from-scratch/"],
-							["Javascript.info - Custom Elements", "https://javascript.info/custom-elements"],
-							["dev.to - An introduction to Custom Elements", "https://dev.to/jamesrweb/an-introduction-to-custom-elements-5327"],
-							["itnext - Introduction to Web Components", "https://itnext.io/introduction-to-web-components-part-i-custom-elements-4de6713cef9d"],
-							["web.dev - Web Components", "https://web.dev/web-components-io-2019/"]
-						]
-					}
-				},
-				{
-					name: "HTML Templates",
-					description: {
-						text: "Learn how to use HTML templates to create flexible templates that can then be used to populate the Shadow DOM.",
-						links: [
-							["MDN - Using Templates & Slots", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots"],
-							["Javascript.info - Template Element", "https://javascript.info/template-element"],
-							["MDN - The Content Template element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template"]
+							["CBNU - Software", "https://software.cbnu.ac.kr/"],
 						]
 					},
-				},
-				{
-					name: "Shadow DOM",
-					description: {
-						text: "Learn how to encapsulate your CSS using Shadow DOM.",
-						links: [
-							["Google Devs - Shadow DOM", "https://developers.google.com/web/fundamentals/web-components/shadowdom"],
-							["MDN - Using Shadow DOM", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM"],
-							["MDN - Shadow Tree", "https://developer.mozilla.org/en-US/docs/Glossary/Shadow_tree"],
-							["CSS Tricks - Encapsulating Style and Structure", "https://css-tricks.com/encapsulating-style-and-structure-with-shadow-dom/"],
-							["itnext - Introduction to Web Components", "https://itnext.io/introduction-to-web-components-part-ii-shadow-dom-8d1d8e126332"],
-							["Monica - Shadow DOM: fast and encapsulated styles", "https://meowni.ca/posts/shadow-dom/"]
 
-						]
-					},
 					skills: [
 						{
-							name: "Shadow Parts",
+							name: "영어읽기와 토론",
 							description: {
-								text: "Learn how to style the inside of a shadow tree from outside of that Shadow Tree by using Shadow Parts.",
+								text: "Learn how to create new HTML tags with Custom Elements.",
 								links: [
-									["Fergald - CSS Shadow ::part and ::theme", "https://github.com/fergald/docs/blob/master/explainers/css-shadow-parts-1.md"],
-									["MDN - ::part", "https://developer.mozilla.org/en-US/docs/Web/CSS/::part"],
-									["W3C - CSS Shadow Parts", "https://www.w3.org/TR/css-shadow-parts-1/"],
-									["Monica - ::part and ::theme, an explainer", "https://meowni.ca/posts/part-theme-explainer/"],
-									["Youtube - CSS Shadow Parts", "https://www.youtube.com/watch?v=yVrvOueeb3s"],
-									["Chrome Status - ::part and ::theme", "https://www.chromestatus.com/features/5763933658939392"]
+									["CBNU - Software", "https://software.cbnu.ac.kr/"],
 								]
 							}
 						},
+					]
+				},
+			]
+		},
+
+		{
+			name: "일반교양",
+			skills: [
+				{
+					name: "역사와 비판적 사고",
+					description: {
+						text: "인류 역사 속에서 사고의 주요한 형식과 주제들을 역사적, 계보학적 맥락에서 이해함으로써 수강자들의 비판적 사고 능력을 배양하는 것이 목적이다.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/"],
+						]
+					}
+				},
+
+				{
+					name: "공업법규와 창업",
+					description: {
+						text: "학생들이 배운 지식과 기술을 통하여 새로운 아이디어를 바탕으로 한 아이템 발굴이나 창업이 중요한 사회, 경제, 기술적, 산업적 바탕이 된다.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/"],
+						]
+					}
+				},
+			]
+		},
+
+		{
+			name: "확대교양(추천)",
+			skills: [
+				{
+					name: "합창",
+					description: {
+						text: "합창 연습과 공연을 통하여 정서와 예술적 소양을 함양하고, 문화에 대한 이해를 심화하고, 타인에 대한 배려심과 협동심, 그리고 리더십을 배양한다.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/"],
+						]
+					}
+				},
+			]
+		},
+
+		{
+			name: "자연이공계기초교양",
+			skills: [
+				{
+					name: "수학I",
+					description: {
+						text: "추상적이고 개념적인 수학 이론을 여러가지 전공 영역에 응용할 수 있도록 학습할 뿐만 아니라 실생활에서 나타나는 현상에 대해 수리적 분석과 응용을 할수 있도록 학습한다.",
+						links: [
+							["CBNU - Software", "https://software.cbnu.ac.kr/"],
+						]
+					},
+
+					skills: [
 						{
-							name: "Slots",
+							name: "수학II",
 							description: {
-								text: "Learn how to compose Custom Elements by using slots.",
+								text: "자연과학과 공학에서 매우 중요한 부분을 차지하고 있는 벡터 미분적분학의 기초적인 내용읋 학습한다.",
 								links: [
-									["Alligator.io - Composing Custom Elements", "https://alligator.io/web-components/composing-slots-named-slots/"],
-									["Javascript.info - Slots Composition", "https://javascript.info/slots-composition"],
-									["MDN - HTML <slot> element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot"],
-									["Component.kitchen - A history of the HTML slot element", "https://component.kitchen/blog/posts/a-history-of-the-html-slot-element"],
+									["CBNU - Software", "https://software.cbnu.ac.kr/"],
 								]
 							}
-						}
+						},
 					]
 				},
 				{
-					name: "Best practices",
+					name: "기초통계학 및 실습",
 					description: {
-						text: "Get familiar with best practices when it comes to building Web Components.",
+						text: "기초통계학 수준에서 필요한 통계학의 기초개념을 이해하고 통계적 사고의 기초를 확립하고자 한다.",
 						links: [
-							["Google Devs - Custom Element Best Practices", "https://developers.google.com/web/fundamentals/web-components/best-practices"],
-							["Webcomponents.org - Web Components Best Practices", "https://www.webcomponents.org/community/articles/web-components-best-practices"],
-							["mateusortiz - Web Components the Right Way", "https://github.com/mateusortiz/webcomponents-the-right-way"],
-							["dev.to - Making Web Components for Different Contexts", "https://dev.to/equinusocio/making-web-components-for-different-contexts-25ed"]
+							["CBNU - Software", "https://software.cbnu.ac.kr/"],
 						]
-					}
+					},
 				},
+
 				{
-					name: "Constructible Stylesheets",
+					name: "맛보기 물리학 및 실험",
 					description: {
-						text: "Learn how the Constructible Stylesheets proposal enables reusable styles when using shadow dom.",
+						text: "물리학 기본 개념과 물리학의 적용방법과 물리학의 기본적인 지식을 습득하고 나아가 과학적 사고방식을 익힐 수 있다.",
 						links: [
-							["Google Devs - Constructable Stylesheets", "https://developers.google.com/web/updates/2019/02/constructable-stylesheets"],
-							["W3C - Constructable Stylesheet Objects", "https://wicg.github.io/construct-stylesheets/"],
-							["dev.to - Why Would Anyone Use Constructible Stylesheets", "https://dev.to/westbrook/why-would-anyone-use-constructible-stylesheets-anyways-19ng"],
-							["Benjamin Farrel - Adopt a Design System", "https://medium.com/swlh/adopt-a-design-system-inside-your-web-components-with-constructable-stylesheets-dd24649261e"],
-							["WICG - Constructable Stylesheet Objects", "https://github.com/WICG/construct-stylesheets/blob/gh-pages/explainer.md"],
-							["Chrome Status - Constructible Stylesheets", "https://www.chromestatus.com/feature/5394843094220800"]
+							["CBNU - Software", "https://software.cbnu.ac.kr/"],
 						]
-					}
+					},
 				},
-				{
-					name: "Form Participation",
-					description: {
-						text: "Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.",
-						links: [
-							["Form Participation API Explained", "https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit"],
-							["Chrome Status - Form-associated custom elements", "https://www.chromestatus.com/features/4708990554472448"],
-							["web-platform-tests - Form Participation", "https://github.com/web-platform-tests/wpt/tree/master/custom-elements/form-associated"],
-							["Google Devs - Form-associated custom elements", "https://developers.google.com/web/updates/2019/09/nic77#form-associated_custom_elements"],
-							["web.dev - More capable form controls", "https://web.dev/more-capable-form-controls/"],
-							["W3C - Creating a form-associated custom element", "https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example"],
-						]
-					}
-				}
 			]
-		}
+		},
 	]
 }
