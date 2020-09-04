@@ -2,10 +2,10 @@ export const accessibilityCollection = {
 	name: "MAJOR",
 	areas: [
 		{
-			name:"선수 과목",
+			name:"Prerequisite",
 			skills: [
 				{
-					name: "컴퓨터시스템개론",
+					name: "computersystems",
 					description: {
 						text: "컴퓨터에 대한 기초 지식을 부여하는 과목으로서 하드웨어, 소프트웨어 및 Firmware의 기능을 정의하고 프로그램과 컴퓨터 상호간에 관계 및 문제의 해결을 컴퓨터로 처리하는 방법을 습득한다.",
 						links: [
@@ -30,7 +30,15 @@ export const accessibilityCollection = {
 									description:{
 										text:"이 과목에서는 데이터베이스의 기본 개념과 개체-관계(E-R) 다이어그램, 관계형 데이터 모델 및 SQL 문의 사용, 데이터베이스 설계, 데이터베이스 보안 등은 물론 DBMS 구조와 그 기능을 공부한다. 아울러 실제 응용에서 시스템 개발과 웹의 연동 방법 등을 학습한다."
 
-									}
+									},
+									skills:[
+										{
+										name:"빅데이터 시스템 설계",
+										description:{
+											text:"빅데이터시스템에서 데이터 전처리와 플랫폼, 그리고 정형 및 비정형의 빅데이터 수집, 저장, 분석과 탐색, 공유, 전파, 시각화, 질의, 갱신 등의 방법에 대한 이론과 실무를 학습한다. 또한 빅데이터시스템을 위한 동시성 제어와 회복기법, 보안정책을 학습한다."
+										}
+										}
+									]
 								},
 								{
 									name:"알고리즘",
@@ -211,13 +219,6 @@ export const accessibilityCollection = {
 					}	
 				},
 				{
-					name:"선형대수학",
-					description:{
-						text:"행렬과 연립방정식, 행렬식, 벡터공간, 선형변환, 고유값, 특이값 분해 등의 이해를 통해 전산 응용 수학의 기초지식을 습득한다."
-
-					}	
-				},
-				{
 					name:"미레설계구현",
 					description:{
 						text:"...."
@@ -256,13 +257,6 @@ export const accessibilityCollection = {
 					name:"오픈소스개발프로젝트",
 					description:{
 						text:"오픈 소스 프로그래밍 언어인 자바를 이용하여 실생활에 적용 가능한 소프트웨어를 개발하고, 이러한 개발과정에서 프로그램의 역할과 프로그램 코드의 체계적인 개발에 대한 중요성을 이해한다."
-
-					}	
-				},
-				{
-					name:"확률및통계",
-					description:{
-						text:"통계적 개념과 통계적 사고방법의 도입을 통해 전자계산기 시스템 분야에서의 응용 능력 배양"
 
 					}	
 				},
