@@ -20,11 +20,5 @@ export const collections = [
 	webcomponentsCollection,
 	pwaCollection,
 	buildtoolsCollection,
-	frameworksAndLibrariesCollection,
-	testingCollection,
-	architectureCollection,
-	teamCollaborationCollection,
-	designAndUXCollection,
-	modernCollection,
-	algorithmsCollection,
+	frameworksAndLibrariesCollection
 ];
