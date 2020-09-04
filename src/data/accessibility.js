@@ -5,37 +5,38 @@ export const accessibilityCollection = {
 			name:"Prerequisite",
 			skills: [
 				{
-					name: "computersystems",
+					name: "컴퓨터시스템개론",
 					description: {
 						text: "컴퓨터에 대한 기초 지식을 부여하는 과목으로서 하드웨어, 소프트웨어 및 Firmware의 기능을 정의하고 프로그램과 컴퓨터 상호간에 관계 및 문제의 해결을 컴퓨터로 처리하는 방법을 습득한다.",
-						links: [
-							["Google Devs - Accessibility Fundamentals", "https://developers.google.com/web/fundamentals/accessibility/"],
-							["A11ycasts with Rob Dodson", "https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g"],
-							["Udacity - Chromevox Lite", "http://udacity.github.io/ud891/lesson3-semantics-built-in/02-chromevox-lite/"],
-							["Dev.to - Why Accessibility Matters", "https://dev.to/lhoffmanwg1/why-accessibility-matters-39nl"],
-							["Abilitynet - Why Accessibility Matters", "https://www.abilitynet.org.uk/why-accessibility-matters"],
-							["Udacity - Web Accessibility", "https://www.udacity.com/course/web-accessibility--ud891"],
-							["Youtube - Headings, Landmarks, and Tabs", "https://www.youtube.com/watch?v=HE2R86EZPMA"],
-						]
+						
 					},
 					skills:[
 						{
 							name:"자료구조",
 							description:{
-								text:"컴퓨터에서 처리하는 데이터 기본 개념과 이를 효율적으로 처리하기 위한 자료 구조인 Array, Stack, Queue 및 Linked List 등의 자료구조에 대하여 공부한다. 또는 이를 이용한 Tree Manipulation, 그래프 이론, 자료 정렬 및 검색과 Symbol Table 작성 방법에 대하여 학습한다."
+								text:"컴퓨터에서 처리하는 데이터 기본 개념과 이를 효율적으로 처리하기 위한 자료 구조인 Array, Stack, Queue 및 Linked List 등의 자료구조에 대하여 공부한다. 또는 이를 이용한 Tree Manipulation, 그래프 이론, 자료 정렬 및 검색과 Symbol Table 작성 방법에 대하여 학습한다.",
+								links:[
+									["자료구조란?","https://ko.wikipedia.org/wiki/%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0"],
+									['자료구조 정리',"https://velog.io/@hygoogi/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EC%A0%95%EB%A6%AC-8xk66rgt2h"]
+								]
 							},
 							skills:[
 								{
 									name:"데이터베이스시스템",
 									description:{
-										text:"이 과목에서는 데이터베이스의 기본 개념과 개체-관계(E-R) 다이어그램, 관계형 데이터 모델 및 SQL 문의 사용, 데이터베이스 설계, 데이터베이스 보안 등은 물론 DBMS 구조와 그 기능을 공부한다. 아울러 실제 응용에서 시스템 개발과 웹의 연동 방법 등을 학습한다."
-
+										text:"이 과목에서는 데이터베이스의 기본 개념과 개체-관계(E-R) 다이어그램, 관계형 데이터 모델 및 SQL 문의 사용, 데이터베이스 설계, 데이터베이스 보안 등은 물론 DBMS 구조와 그 기능을 공부한다. 아울러 실제 응용에서 시스템 개발과 웹의 연동 방법 등을 학습한다.",
+										links:[
+											['My SQL',"https://www.mysql.com/"]					
+										]
 									},
 									skills:[
 										{
 										name:"빅데이터 시스템 설계",
 										description:{
-											text:"빅데이터시스템에서 데이터 전처리와 플랫폼, 그리고 정형 및 비정형의 빅데이터 수집, 저장, 분석과 탐색, 공유, 전파, 시각화, 질의, 갱신 등의 방법에 대한 이론과 실무를 학습한다. 또한 빅데이터시스템을 위한 동시성 제어와 회복기법, 보안정책을 학습한다."
+											text:"빅데이터시스템에서 데이터 전처리와 플랫폼, 그리고 정형 및 비정형의 빅데이터 수집, 저장, 분석과 탐색, 공유, 전파, 시각화, 질의, 갱신 등의 방법에 대한 이론과 실무를 학습한다. 또한 빅데이터시스템을 위한 동시성 제어와 회복기법, 보안정책을 학습한다.",
+											links:[
+												["MongoDB","https://www.mongodb.com/"]
+											]
 										}
 										}
 									]
@@ -43,7 +44,10 @@ export const accessibilityCollection = {
 								{
 									name:"알고리즘",
 									description:{
-										text:"일반적으로 널리 알려진 알고리즘 및 대표적인 응용분야에 적용되는 알고리즘 기능 및 처리 과정을 배운다. 알고리즘의 난해도를 분석하고 효율적인 알고리즘을 설계하는 기법을 익힌다."
+										text:"일반적으로 널리 알려진 알고리즘 및 대표적인 응용분야에 적용되는 알고리즘 기능 및 처리 과정을 배운다. 알고리즘의 난해도를 분석하고 효율적인 알고리즘을 설계하는 기법을 익힌다.",
+										links:[
+											["Baekjoon","https://www.acmicpc.net/"]
+										]
 									}
 								}
 							]
@@ -55,17 +59,18 @@ export const accessibilityCollection = {
 					description: {
 						text: "컴퓨터과학 및 디지털정보처리 분야의 수학적 기초가 되는 논리, 함수, 관계를 포함한 집합, 알고리즘, 수학적 귀납법 및 증명방법, 그래프, 트리, 부울 대수 등을 학습한다.",
 						links: [
-							["The A11Y Project - Screen Reader Myths", "https://a11yproject.com/posts/people-who-use-screen-readers-dont-use-javascript/"],
-							["The A11Y Project - NVDA Screen Reader", "https://a11yproject.com/posts/getting-started-with-nvda/"],
-							["The A11Y Project - OS X Voiceover", "https://a11yproject.com/posts/getting-started-with-voiceover/"],
-							["Webaim - Screen Reader Survey", "https://webaim.org/projects/screenreadersurvey7/"]
+							["이산수학이란?", "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%82%B0%EC%88%98%ED%95%99"],
+							
 						]
 					},
 					skills:[
 						{
 							name:"알고리즘",
 							description:{
-								text:"일반적으로 널리 알려진 알고리즘 및 대표적인 응용분야에 적용되는 알고리즘 기능 및 처리 과정을 배운다. 알고리즘의 난해도를 분석하고 효율적인 알고리즘을 설계하는 기법을 익힌다."
+								text:"일반적으로 널리 알려진 알고리즘 및 대표적인 응용분야에 적용되는 알고리즘 기능 및 처리 과정을 배운다. 알고리즘의 난해도를 분석하고 효율적인 알고리즘을 설계하는 기법을 익힌다.",
+								links:[
+									["Baekjoon","https://www.acmicpc.net/"]
+								]
 							}
 						}
 					]
@@ -73,9 +78,9 @@ export const accessibilityCollection = {
 				{
 					name: "응용 컴퓨터 프로그래밍",
 					description: {
-						text: ".....",
+						text: "C언어에 대한 고급 프로그래밍 기법을 학습하는 강좌로서, 기초 컴퓨터 프로그래밍에서 학습한 기초적인 C언어의 문법을 기반으로 응용 개발 프로그램 개발 예제를 통하여 프로그램 개발 능력을 함양한다.",
 						links: [
-							["Google Devs - The Accessibility Tree", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/the-accessibility-tree"]
+							["Visual Studio Code", "https://code.visualstudio.com/"]
 						]
 					},
 					skills: [
@@ -85,11 +90,7 @@ export const accessibilityCollection = {
 							description: {
 								text: "객체지향 개념 및 프로그래밍 기법에 대한 이론적 학습과 실습을 통하여 객체지향 프로그램을 개발하고, 실제 응용 프로그래밍에 활용할 수 있는 능력을 함양한다.",
 								links: [
-									["Google Devs - Introduction to Semantics", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/"],
-									["MDN - Accessibility HTML", "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML"],
-									["Webaim - Skip navigation", "https://webaim.org/techniques/skipnav/"],
-									["w3c - Headings", "https://www.w3.org/WAI/tutorials/page-structure/headings/"],
-									["Freecodecamp - Semantic Elements", "https://guide.freecodecamp.org/html/html5-semantic-elements/"]
+									["Visual Studio Code", "https://code.visualstudio.com/"]									
 								]
 							},
 							skills: [
@@ -98,9 +99,8 @@ export const accessibilityCollection = {
 									description: {
 										text: "객체지향 개발 방법에 의하여 소프트웨어를 분석하고 설계하기 위한 기본 개념의 이해 및 기법들을 대하여 학습하고, 프로젝트를 통한 문제 분석 및 설계 과정을 진행한다.",
 										links: [
-											["Google Devs - Text Alternatives for Images", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/text-alternatives-for-images"],
-											["Webaim - Accessible Images", "https://webaim.org/techniques/images/"],
-											["Webaim - Alternative text", "https://webaim.org/techniques/alttext/"],
+											["객체지향 설계 원칙", "http://blog.skby.net/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%EC%84%A4%EA%B3%84%EC%9B%90%EC%B9%99-object-oriented-model/"],
+											
 										]
 									},
 									skills: [
@@ -109,9 +109,8 @@ export const accessibilityCollection = {
 											description: {
 												text: "소프트웨어 공학에 대한 기본적인 개념의 이해와 소프트웨어 개발 과정에서 품질을 향상시키기 위해 요구되는 공학적 활동에 대하여 학습하고, 주어진 문제의 소프트웨어 개발을 위한 프로젝트를 진행한다.",
 												links: [
-													["Google Devs - Text Alternatives for Images", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/text-alternatives-for-images"],
-													["Webaim - Accessible Images", "https://webaim.org/techniques/images/"],
-													["Webaim - Alternative text", "https://webaim.org/techniques/alttext/"],
+													["소프트웨어 공학이란?", "https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EA%B3%B5%ED%95%99"],
+													
 												]
 											}
 										}
@@ -127,8 +126,7 @@ export const accessibilityCollection = {
 					description: {
 						text: "컴퓨터 관련 전공자들이 필수적으로 알고 있어야 할 컴퓨터 하드웨어의 동작 원리에 대하여 학습한다. 컴퓨터의 구성 요소인 중앙처리장치, 기억장치, 입출력장치의 동작 원리를 이해하고, 중앙처리장치가 명령어를 실행하는 과정에 대하여 자세히 배운다.",
 						links: [
-							["Webaim - Forms", "https://webaim.org/techniques/forms/"],
-							["Itnext - Form Accessibility Gudie", "https://itnext.io/form-accessibility-a-practical-guide-4062b7e2dd14"]
+
 						]
 					},
 					skills:[
@@ -168,7 +166,7 @@ export const accessibilityCollection = {
 										{
 											name:"창업파일럿프로젝트",
 											description:{
-												text:"...."
+												text:"This course aims to enhance the value of the project results(software system) realized through the Capstone Design and to check the applicability of the results of the results through the exhibition of the developed systems."
 											}
 										}
 									]
@@ -193,21 +191,24 @@ export const accessibilityCollection = {
 				{
 					name:"오픈소스소프트웨어이해와실습",
 					description:{
-						text:"......."
-
+						text:"This course will help students to improve their development skills and extend knowledge in computer science in general by doing well organized and developed labortory exciser.",
+						links:[
+							["Ubuntu","https://ubuntu.com/"],
+							["Oracle VM","https://www.virtualbox.org/"]
+						]
 					}	
 				},
 				{
 					name:"미래설계준비",
 					description:{
-						text:"......."
+						text:"Students can understand the meaninig of internships for the field work, the purpose of business of company."
 
 					}	
 				},
 				{
 					name:"소프트웨어실전영어",
 					description:{
-						text:"......."
+						text:"Software English"
 
 					}	
 				},
@@ -219,16 +220,19 @@ export const accessibilityCollection = {
 					}	
 				},
 				{
-					name:"미레설계구현",
+					name:"미래설계구현",
 					description:{
-						text:"...."
+						text:"대기업에서 사용하는 직무적성 검사를 미리 치르게 함으로써 학생이 현재 가지고 있는 직무역량을 알아보고 현재 부족한 역량 및 필요한 역량이 어떠한 것인지 분석하게 함으ㅗㄹ써 원하는 분야로의 취업에 필요한 역량을 쌓을 수 있는 계기가 되도록 한다."
 
 					}	
 				},
 				{
 					name:"오픈소스기초프로젝트",
 					description:{
-						text:"행렬과 연립방정식, 행렬식, 벡터공간, 선형변환, 고유값, 특이값 분해 등의 이해를 통해 전산 응용 수학의 기초지식을 습득한다."
+						text:"This course is a project cousrse to learn Python, one of the poplar open-source language, and conduct projects in Python.",
+						links:[
+							["Python","https://www.python.org/"]
+						]
 
 					}	
 				},
@@ -249,14 +253,18 @@ export const accessibilityCollection = {
 				{
 					name:"창업탐색",
 					description:{
-						text:"......"
+						text:"Students are expected to survey necessary information for startups"
 
 					}	
 				},
 				{
 					name:"오픈소스개발프로젝트",
 					description:{
-						text:"오픈 소스 프로그래밍 언어인 자바를 이용하여 실생활에 적용 가능한 소프트웨어를 개발하고, 이러한 개발과정에서 프로그램의 역할과 프로그램 코드의 체계적인 개발에 대한 중요성을 이해한다."
+						text:"오픈 소스 프로그래밍 언어인 자바를 이용하여 실생활에 적용 가능한 소프트웨어를 개발하고, 이러한 개발과정에서 프로그램의 역할과 프로그램 코드의 체계적인 개발에 대한 중요성을 이해한다.",
+						links:[
+							["Java","https://www.oracle.com/java/technologies/javase-jdk13-downloads.html"]
+							
+						]
 
 					}	
 				},
@@ -270,14 +278,20 @@ export const accessibilityCollection = {
 				{
 					name:"컴퓨터그래픽스",
 					description:{
-						text:"컴퓨터 그래픽스 분야를 구성하는 렌더링, 애니메이션, 그리고 기하모델링 등의 기본 주제에 관한 이론과 실제를 다루며 대표적인 실시간 3차원 그래픽스 프로그래밍 툴을 사용하여 그래픽스 프로그래밍 기법을 익힌다."
+						text:"컴퓨터 그래픽스 분야를 구성하는 렌더링, 애니메이션, 그리고 기하모델링 등의 기본 주제에 관한 이론과 실제를 다루며 대표적인 실시간 3차원 그래픽스 프로그래밍 툴을 사용하여 그래픽스 프로그래밍 기법을 익힌다.",
+						links:[
+							["OpenGL","https://www.opengl.org/"]
+						]
 
 					}
 				},
 				{
 					name:"오픈소스 웹소프트웨어",
 					description:{
-						text:"...."
+						text:"Open Source Web Software",
+						links:[
+							["IntelliJ","https://www.jetbrains.com/ko-kr/idea/"]
+						]
 
 					}	
 				},
@@ -298,14 +312,17 @@ export const accessibilityCollection = {
 				{
 					name:"창업기획",
 					description:{
-						text:"...."
+						text:"Students are expected to survey necessary information for startups"
 
 					}	
 				},
 				{
 					name:"오픈소스전문프로젝트",
 					description:{
-						text:"소프트웨어 개발이 단순한 코딩 작업만이 아니라, 분석 및 설계 과정을 거쳐 개발되어야 함을 이해하고, 오픈 소스 툴을 사용하여 웹과 앱에서 실행되는 어플리케이션을 개발하는 기술을 학습한다."
+						text:"소프트웨어 개발이 단순한 코딩 작업만이 아니라, 분석 및 설계 과정을 거쳐 개발되어야 함을 이해하고, 오픈 소스 툴을 사용하여 웹과 앱에서 실행되는 어플리케이션을 개발하는 기술을 학습한다.",
+						links:[
+							["Android","https://developer.android.com/studio"]
+						]
 
 					}	
 				},
@@ -318,7 +335,7 @@ export const accessibilityCollection = {
 				{
 					name:"창업설계",
 					description:{
-						text:"......"
+						text:"Students are expected to survey necessary information for startups"
 					}	
 				},
 				{
@@ -330,13 +347,20 @@ export const accessibilityCollection = {
 				{
 					name:"인공지능",
 					description:{
-						text:"인공지능의 성공적인 적용분야 및 목표를 살펴보고, 대표적인 지능적인 문제 해결 기법들, 지식표현 방법 및 추론, 지식기반 시스템, 자연어처리, 컴퓨터 비전, 지능로봇 등에 대해서 학습한다."
+						text:"인공지능의 성공적인 적용분야 및 목표를 살펴보고, 대표적인 지능적인 문제 해결 기법들, 지식표현 방법 및 추론, 지식기반 시스템, 자연어처리, 컴퓨터 비전, 지능로봇 등에 대해서 학습한다.",
+						links:[
+							["Keras","https://keras.io/ko/"]
+
+						]
 					}	
 				},
 				{
 					name:"기계학습",
 					description:{
-						text:"데이터로부터 패턴을 추천하는 기계학습에 대한 핵심적인 원리를 소개한다. 지도학습, 비지도학습, 강화학습의 기본 개념을 소개하며, 주요 기계학습 알고리즘과 딥러닝 기법을 다룬다."
+						text:"데이터로부터 패턴을 추천하는 기계학습에 대한 핵심적인 원리를 소개한다. 지도학습, 비지도학습, 강화학습의 기본 개념을 소개하며, 주요 기계학습 알고리즘과 딥러닝 기법을 다룬다.",
+						links:[
+							["Keras","https://keras.io/ko/"]
+						]
 					}	
 				},
 				{
@@ -349,7 +373,12 @@ export const accessibilityCollection = {
 				{
 					name:"영상처리",
 					description:{
-						text:"디지털 영상처리에 대한 기본적인 지식과 함께 관련 분야에의 응용에 대한 기술을 심화한다. 그리고 최근의 영상처리이론과 연구결과를 접함으로써 선진 기술들에 대한 이해의 폭을 넓힌다."
+						text:"디지털 영상처리에 대한 기본적인 지식과 함께 관련 분야에의 응용에 대한 기술을 심화한다. 그리고 최근의 영상처리이론과 연구결과를 접함으로써 선진 기술들에 대한 이해의 폭을 넓힌다.",
+						links:
+						[
+							["OpenCV","https://sourceforge.net/projects/opencvlibrary/"]
+						]
+
 
 					}	
 				},
@@ -405,7 +434,13 @@ export const accessibilityCollection = {
 				{
 					name:"클라우드 컴퓨팅",
 					description:{
-						text:"본 수업은 클라우드에 대한 상세한 개념과 IaaS, PaaS, SaaS, BPaaS과 같은 다양한 클라우드 서비스 모델에 대해 다룬다. 학생들은 Amazon Elastic Cloud, Microsoft’s Azure, Google App Engine을 활용한 프로젝트를 통해서 실질적인 경험을 얻을 수 있다."
+						text:"본 수업은 클라우드에 대한 상세한 개념과 IaaS, PaaS, SaaS, BPaaS과 같은 다양한 클라우드 서비스 모델에 대해 다룬다. 학생들은 Amazon Elastic Cloud, Microsoft’s Azure, Google App Engine을 활용한 프로젝트를 통해서 실질적인 경험을 얻을 수 있다.",
+						links:
+						[
+							["Ubuntu","https://ubuntu.com/"],
+							["Docker","https://www.docker.com/"]
+
+						]
 
 					}	
 				}
