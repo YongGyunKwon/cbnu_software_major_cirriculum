@@ -2,7 +2,7 @@ export const accessibilityCollection = {
 	name: "MAJOR",
 	areas: [
 		{
-			name:"Prerequisite",
+			name:"선수과목",
 			skills: [
 				{
 					name: "컴퓨터시스템개론",
@@ -303,7 +303,7 @@ export const accessibilityCollection = {
 					}	
 				},
 				{
-					name:"컴퓨터네트워크",
+					name:"컴퓨터 네트워크",
 					description:{
 						text:"네트워크의 기본 개념과 네트워크의 구조, TCP/IP 프로토콜 구조, 네트워크, 전송 및 응용 계층 프로토콜들에 관련한 기술 및 원리에 대해 인터넷을 중심으로 학습한다."
 

@@ -18,7 +18,5 @@ export const collections = [
 	fundamentalsCollection,
 	accessibilityCollection,
 	webcomponentsCollection,
-	pwaCollection,
-	buildtoolsCollection,
-	frameworksAndLibrariesCollection
+	pwaCollection
 ];
